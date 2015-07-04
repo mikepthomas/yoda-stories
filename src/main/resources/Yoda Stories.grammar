@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ufwb version="1.3">
+    <grammar name="Yoda Stories" start="id:3" author="Mike Thomas">
+        <description>Grammar for Yoda Stories Data File</description>
+        <structure name="Yoda Stories" id="3" length="0" encoding="ISO_8859-1:1987" endian="little" signed="no">
+            <structure name="Version" id="4" length="8">
+                <string name="Header" id="5" fillcolor="FEFB00" type="fixed-length" length="4" encoding="ISO_8859-1:1987"/>
+                <number name="Version Number" id="6" type="integer" length="4" display="hex"/>
+            </structure>
+            <structure name="Setup" id="8" length="0">
+                <string name="Header" id="9" fillcolor="FEFB00" type="fixed-length" length="4" encoding="ISO_8859-1:1987"/>
+                <number name="Length" id="10" fillcolor="00F900" type="integer" length="4"/>
+                <binary name="Data" id="11" fillcolor="FF2600" length="Length"/>
+            </structure>
+            <structure name="Sounds" id="13">
+                <string name="Header" id="14" fillcolor="FEFB00" type="fixed-length" length="4"/>
+                <number name="Length" id="15" fillcolor="00F900" type="integer" length="4"/>
+                <structure name="Files" id="16" length="Length">
+                    <number name="Unknown" id="17" type="integer" length="2"/>
+                    <structure name="File" id="18" repeatmax="-1">
+                        <number name="Length" id="19" fillcolor="00F900" type="integer" length="2"/>
+                        <string name="Filename" id="20" fillcolor="0432FF" type="fixed-length" length="Length"/>
+                    </structure>
+                </structure>
+            </structure>
+            <structure name="Tiles" id="24">
+                <string name="Header" id="25" fillcolor="FEFB00" type="fixed-length" length="4"/>
+                <number name="Length" id="26" fillcolor="00F900" type="integer" length="4"/>
+                <structure name="Tile" id="27" length="1028" repeatmax="Length/1028">
+                    <number name="Flags" id="28" type="integer" length="4" display="binary"/>
+                    <binary name="Pixel Data" id="29" fillcolor="FF2600" length="1024"/>
+                </structure>
+            </structure>
+            <structure name="Zones" id="32">
+                <string name="Header" id="33" fillcolor="FEFB00" type="fixed-length" length="4"/>
+                <number name="Count" id="34" fillcolor="00F900" type="integer" length="2"/>
+                <structure name="Zone" id="35" repeatmax="Count">
+                    <number name="Terrain" id="36" type="integer" length="2">
+                        <fixedvalues>
+                            <fixedvalue name="Desert" value="1"/>
+                            <fixedvalue name="Snow" value="2"/>
+                            <fixedvalue name="Forest" value="3"/>
+                            <fixedvalue name="N/A" value="4"/>
+                            <fixedvalue name="Swamp" value="5"/>
+                        </fixedvalues>
+                    </number>
+                    <number name="Length" id="37" fillcolor="00F900" type="integer" length="4"/>
+                    <structure name="Map" id="38" length="Length">
+                        <number name="Map Number" id="39" type="integer" length="2"/>
+                        <structure name="IZON" id="40">
+                            <string name="Header" id="41" fillcolor="FEFB00" type="fixed-length" length="4"/>
+                            <number name="Unknown" id="42" type="integer" length="4"/>
+                            <number name="Width" id="43" type="integer" length="2"/>
+                            <number name="Height" id="44" type="integer" length="2"/>
+                            <number name="Flags" id="45" type="integer" length="1" display="binary"/>
+                            <number name="Map Values" mustmatch="yes" id="46" type="integer" length="5" display="hex">
+                                <fixedvalues>
+                                    <fixedvalue name="Same" value="0xFFFF000000"/>
+                                </fixedvalues>
+                            </number>
+                            <number name="Terrain" id="47" type="integer" length="2">
+                                <fixedvalues>
+                                    <fixedvalue name="Desert" value="1"/>
+                                    <fixedvalue name="Snow" value="2"/>
+                                    <fixedvalue name="Forest" value="3"/>
+                                    <fixedvalue name="N/A" value="4"/>
+                                    <fixedvalue name="Swamp" value="5"/>
+                                </fixedvalues>
+                            </number>
+                            <binary name="Map Data" id="48" fillcolor="FF2600" length="Width*Height*6"/>
+                            <number name="Count" id="49" fillcolor="00F900" type="integer" length="2"/>
+                            <structure name="Object Info" id="50" repeatmin="0" repeatmax="Count">
+                                <number name="Type" id="51" type="integer" length="4" display="hex">
+                                    <fixedvalues>
+                                        <fixedvalue name="trigger location" value="0x0"/>
+                                        <fixedvalue name="spawn location" value="0x1"/>
+                                        <fixedvalue name="force-related location" value="0x2"/>
+                                        <fixedvalue name="vehicle to secondary map" value="0x3"/>
+                                        <fixedvalue name="vehicle to primary map" value="0x4"/>
+                                        <fixedvalue name="object that gives you the locator" value="0x5"/>
+                                        <fixedvalue name="crate item" value="0x6"/>
+                                        <fixedvalue name="puzzle NPC" value="0x7"/>
+                                        <fixedvalue name="crate weapon" value="0x8"/>
+                                        <fixedvalue name="door (in)" value="0x9"/>
+                                        <fixedvalue name="door (out)" value="0xA"/>
+                                        <fixedvalue name="unused" value="0xB"/>
+                                        <fixedvalue name="lock" value="0xC"/>
+                                        <fixedvalue name="teleporter" value="0xD"/>
+                                        <fixedvalue name="x-wing from dagobah" value="0xE"/>
+                                        <fixedvalue name="x-wing to dagobah" value="0xF"/>
+                                    </fixedvalues>
+                                </number>
+                                <number name="X" id="52" type="integer" length="2"/>
+                                <number name="Y" id="53" type="integer" length="2"/>
+                                <number name="Unknown" id="54" type="integer" length="2"/>
+                                <number name="Arg" id="55" type="integer" length="2"/>
+                            </structure>
+                        </structure>
+                        <structure name="IZAX" id="58">
+                            <string name="Header" id="59" fillcolor="FEFB00" type="fixed-length" length="4"/>
+                            <number name="Length" id="60" fillcolor="00F900" type="integer" length="2"/>
+                            <binary name="Data" id="61" fillcolor="FF2600" length="Length-6"/>
+                        </structure>
+                        <structure name="IZX2" id="63">
+                            <string name="Header" id="64" fillcolor="FEFB00" type="fixed-length" length="4"/>
+                            <number name="Length" id="65" fillcolor="00F900" type="integer" length="2"/>
+                            <binary name="Data" id="66" fillcolor="FF2600" length="Length-6"/>
+                        </structure>
+                        <structure name="IZX3" id="68">
+                            <string name="Header" id="69" fillcolor="FEFB00" type="fixed-length" length="4"/>
+                            <number name="Length" id="70" fillcolor="00F900" type="integer" length="2"/>
+                            <binary name="Data" id="71" fillcolor="FF2600" length="Length-6"/>
+                        </structure>
+                        <structure name="IZX4" id="73">
+                            <string name="Header" id="74" fillcolor="FEFB00" type="fixed-length" length="4"/>
+                            <number name="Length" id="75" fillcolor="00F900" type="integer" length="2"/>
+                            <binary name="Data" id="76" fillcolor="FF2600" length="6"/>
+                        </structure>
+                        <structure name="IACT" id="78" repeatmax="-1">
+                            <string name="Header" id="79" fillcolor="FEFB00" type="fixed-length" length="4"/>
+                            <number name="Length" id="80" fillcolor="00F900" type="integer" length="4"/>
+                            <binary name="Data" id="81" fillcolor="FF2600" length="Length"/>
+                        </structure>
+                    </structure>
+                </structure>
+            </structure>
+        </structure>
+    </grammar>
+</ufwb>
