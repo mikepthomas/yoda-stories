@@ -1,0 +1,131 @@
+                              ----------------
+                                  Level 6
+                              ----------------
+                               Michael Thomas
+                              ----------------
+                              26 February 2015
+
+Level 6
+
+  * Start Item: Binoculars
+
+  * Location: Etorasp
+
+  * Terrain: Snow
+
+  []
+
+* Yoda's Introduction
+
+  "There you are Luke! Heard my call you did yes! General Marutz a leader of the
+  Rebellion has been kidnapped by Stormtroopers! Danger there is mmm? Fly you
+  must to the frigid snow planet Etorasp and rescue the General!!! Before Vader
+  tortures the Rebel battle plans out of him! Here! Take this pair of
+  Binoculars! Help you it will!"
+
+  In other words: Locate General Marutz and free him from Vader.
+
+* Map
+
+--------------------------------------------------------------------------------
+               _____ _____
+              |     |     |
+              |     | FA  |
+   _____ _____|_____|_____|_____
+  |     |     |     |     |     |
+  | P3  | B1  | PF  | TE  | P4  |
+  |_____|_____|_____|_____|_____|
+              |     |     |     |
+              |     |     |     |
+         _____|_____|_____|_____|_____ _____
+        |     |     |     |     |     |     |
+        |     | P1  | ST  | PT  | B2  | P5  |
+        |_____|_____|_____|_____|_____|_____|
+        |     |     |     |     |
+        | P2  | TE  |     |     |
+        |_____|_____|     |_____|
+                          |     |
+                          |     |
+                          |_____|
+                          |     |
+                          | P6  |
+                          |_____|
+--------------------------------------------------------------------------------
+
+  [ST] Start Point
+
+  [FA] Final Area
+
+  [TE] Teleporter
+
+  [PT] Puzzle: Find Terrain Locator
+
+  [PF] Puzzle: Find the Force
+
+  [P1] Puzzle: Find a valuable - (Homing Beacon) Power Terminal
+
+  [P2] Puzzle: Find a valuable - Sonic Cleaver
+
+  [P3] Puzzle: Perform a transaction - Trade Binoculars for Ice Drill
+
+  [P4] Puzzle: Find a valuable - Alluvial Dampner
+
+  [P5] Puzzle: Perform a transaction - Trade Alluvial Dampner for Macrofuser
+
+  [P6] Puzzle: Requires a valuable - Need Macrofuser; get Electro Lockpick
+
+  [B1] Barrier: Sonic Cleaver needed to pass
+
+  [B2] Barrier: Power Terminal needed to pass
+
+  []
+
+* Walkthrough
+
+  From the space-port head east and check the AT-AT wreck for the Terrain
+  Locator. Now head west twice and north twice. Arrange the rocks like in the
+  last snow-level (diagonally next to the centre) to find a cave containing Ben
+  and the Force. Go back south two screens and enter the cave. Now walk one step
+  into the direction of the voices each time; this will show you the real cave.
+  Now head to the top right of the cave and use the Force to break through the
+  wall there. There are two options now; either the man you find is dead and you
+  will find a Power Terminal on him, or he's alive and tell you to place a
+  Homing Beacon (which he will give you) outside. If this is the case, place the
+  Homing Beacon in the centre of the screen on the snowy hump outside and return
+  to the man to get the Power Terminal. Now go south (there's a Teleporter) and
+  west. Here, defeat all the Troopers and the last one on the highest rock will
+  either give you the Sonic Cleaver (if he's friendly) or he will leave it after
+  you kill him (if he's hostile). Now head east, then north three times, then
+  west. Here you will need to push/pull the three ice-blocks to form a path over
+  the cracks. The location of the rocks varies, so the order of pushing will
+  too. After you make it across, use the Sonic Cleever on the door to get
+  through. On the next screen, check the Transporter for some medicine/weapons
+  and the guard will leave the door so you can get in. Defeat all the Troopers
+  to open the door and trade the Binoculars with the man you find for the Ice
+  Drill. Now travel east for four screens and enter the building to find a man
+  who will give you the Alluvial Dampner. Head south twice and east once and
+  defeat all the Troopers there. Search the Transporter to make one more Trooper
+  appear; give him the Power Terminal to make it past him. On the next screen,
+  kill all the enemies for the Key and use it on the building to enter via the
+  top door. Once inside, press the elevator button and enter the elevator. Now
+  head to the cell-block on the right and use the key to reach the guard. Kill
+  him and push the switch on the wall to open the cells. Give your Alluvial
+  Dampner to the prisoner to get the Macrofuser. Now move west two screens and
+  south three times and enter the cave you find. Make your way to the top-left
+  and use your Macrofuser on the wall to get the Electro Lockpick. Travel north
+  five screens, then west and north again. Use your Electro Lockpick on the
+  bottom-left tower to gain access to the base. Inside, open all the chests and
+  move the blocks (their location varies) to get to the centre. Use the Ice
+  Drill on the ice on the wall to either get through the door or reveal its lock
+  which can be picked with the Electro Lockpick. Now enter and use the elevator.
+  Kill the Troopers for a Key Card and use it on the gate. Use the Electro
+  Lockpick on the hangar door and go inside. Kill the Troopers and talk to the
+  officer to get the Nav Card. Head back to the space-port (south three times)
+  and use the Nav Card on your X-wing get to Vader's Star Destroyer. Once there,
+  use one of the panels in the centre to open the door on top. Go through it,
+  kill all the Troopers and hit the master switch in the left room to open the
+  door to Vader. Use the Force twice on the guard to make him step aside and
+  open the door for you. Hit the switch on the wall behind Vader to open the
+  door to the bridge. Go there (top-left room) and use the Ice Drill on the
+  Shield Generator to make Vader leave his spot. Now talk to General Muratz and
+  the level is finished.
