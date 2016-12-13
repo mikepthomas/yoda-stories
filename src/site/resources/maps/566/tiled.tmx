@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="9" height="9" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
+ <layer name="Bottom" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJy7xsrAcI1IfAEHppWaV1Qw5wYQ38SCifUzMRgA8ghEww==
+  </data>
+ </layer>
+ <layer name="Middle" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgSGHEjuWgNANUDTOUDQNMQL48mhpc4D8rfjVsRJpDqppLrNgxTA3MXejuJAUAAL+7D34=
+  </data>
+ </layer>
+ <layer name="Top" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANNjIzMGwC4s3M2OXZGRkY1gHlWoF4Aw41pAJCdoIAup049bDg1kNNOwFTSRJY
+  </data>
+ </layer>
+</map>

@@ -6,6 +6,7 @@
 package com.zachtronics.yodastories.tile;
 
 import com.zachtronics.yodastories.parser.BinaryReader;
+
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -14,8 +15,11 @@ import java.io.InputStream;
 import java.io.RandomAccessFile;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import tiled.core.Tile;
 
 /**
  *
@@ -44,7 +48,7 @@ public class TilesReader extends BinaryReader {
     }
 
     public List<Tile> readObject() throws IOException {
-        List tiles = new ArrayList<Tile>();
+        List tiles = new ArrayList<>();
         long tilesLength = readUInt32();
         for (int i = 0; i < tilesLength / 0x404; i++) {
             boolean[] flags = readBits(4);
@@ -59,24 +63,16 @@ public class TilesReader extends BinaryReader {
             }
             System.out.printf("Rendered Tile %d\n", i);
 
-            Tile tile = new Tile(i, flags, image);
-            if (tile.isGameObject()) {
-                if (tile.isWeapon()) {
-                    tile = new WeaponTile(i, flags, image);
-                }
-                else if (tile.isItem()) {
-                    tile = new ItemTile(i, flags, image);
-                }
-                else if (tile.isCharacter()) {
-                    tile = new CharacterTile(i, flags, image);
-                }
-            }
-            else if (tile.isDoor()) {
-                tile = new DoorTile(i, flags, image);
-            }
-            else if (tile.isMiniMap()) {
-                tile = new MiniMapTile(i, flags, image);
-            }
+            Tile tile = new Tile();
+            tile.setImage(image);
+   
+            Properties properties = tile.getProperties();
+            properties.setProperty("Collidable", String.valueOf(flags[0]));
+            properties.setProperty("Weapon", String.valueOf(flags[6]));
+            properties.setProperty("Item", String.valueOf(flags[7]));
+            properties.setProperty("Character", String.valueOf(flags[8]));
+            properties.setProperty("Door", String.valueOf(flags[16]));
+   
             tiles.add(tile);
         }
         return tiles;

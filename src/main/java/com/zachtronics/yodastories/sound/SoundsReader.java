@@ -6,6 +6,7 @@
 package com.zachtronics.yodastories.sound;
 
 import com.zachtronics.yodastories.parser.BinaryReader;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -22,7 +23,7 @@ public class SoundsReader extends BinaryReader {
     }
 
     public List<Sound> readObject() throws IOException {
-        List sounds = new ArrayList<Sound>();
+        List<Sound> sounds = new ArrayList<>();
         int soundUnknown = readUInt16();
         while (available() != 0) {
             int filenameLength = readUInt16();

@@ -5,7 +5,7 @@
  */
 package com.zachtronics.yodastories.puzzle;
 
-import com.zachtronics.yodastories.tile.Tile;
+import tiled.core.Tile;
 
 /**
  *

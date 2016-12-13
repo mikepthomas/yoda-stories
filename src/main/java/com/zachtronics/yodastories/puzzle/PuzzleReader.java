@@ -6,7 +6,8 @@
 package com.zachtronics.yodastories.puzzle;
 
 import com.zachtronics.yodastories.parser.BinaryReader;
-import com.zachtronics.yodastories.tile.TileManager;
+import com.zachtronics.yodastories.parser.DataParser;
+
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -55,7 +56,7 @@ public class PuzzleReader extends BinaryReader {
 
         System.out.println("item A = " + itemA);
         System.out.println("item B = " + itemB);
-        puzzle.setItem(TileManager.get(itemA));
+        puzzle.setItem(DataParser.TILE_SET.getTile(itemA));
         return puzzle;
     }
 }

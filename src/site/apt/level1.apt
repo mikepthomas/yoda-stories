@@ -9,6 +9,8 @@ Level 1
 
   * Start Item: Power Coupling
 
+[items/Power Coupling (479).png]
+
   * Location: Tatooine
 
   * Terrain: Desert
@@ -18,14 +20,6 @@ Level 1
 * Introduction (85)
 
 ** Start
-
-  Well done...
-
-** End
-
-  Free the FALCON, Luke!
-
-** Reward
 
   Hello, Luke!
 
@@ -41,6 +35,14 @@ Level 1
   Rescue him you must, and free the Falcon!
 
   Here's something that will help you complete the task...
+
+** In Progress
+
+  Free the FALCON, Luke!
+
+** End
+
+  Well done...
 
 * Map
 

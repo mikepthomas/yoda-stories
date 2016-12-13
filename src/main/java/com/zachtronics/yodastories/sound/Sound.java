@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
@@ -41,9 +42,7 @@ public class Sound {
             Clip clip = (Clip) AudioSystem.getLine(info);
             clip.open(stream);
             clip.start();
-        } catch (UnsupportedAudioFileException ex) {
-            Logger.getLogger(Sound.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (LineUnavailableException ex) {
+        } catch (UnsupportedAudioFileException | LineUnavailableException ex) {
             Logger.getLogger(Sound.class.getName()).log(Level.SEVERE, null, ex);
         } finally {
             if (stream != null) stream.close();

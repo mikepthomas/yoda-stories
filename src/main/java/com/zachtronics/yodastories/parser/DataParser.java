@@ -7,23 +7,28 @@ import com.zachtronics.yodastories.puzzle.Puzzle;
 import com.zachtronics.yodastories.puzzle.PuzzlesReader;
 import com.zachtronics.yodastories.sound.Sound;
 import com.zachtronics.yodastories.sound.SoundsReader;
-import com.zachtronics.yodastories.tile.Tile;
-import com.zachtronics.yodastories.tile.TileManager;
 import com.zachtronics.yodastories.tile.TilesReader;
 import com.zachtronics.yodastories.zone.Zone;
 import com.zachtronics.yodastories.zone.ZonesReader;
+
+import java.awt.Image;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 import org.apache.commons.io.FileUtils;
+
+import tiled.core.Tile;
+import tiled.core.TileSet;
+import tiled.io.TMXMapWriter;
+import tiled.util.ImageHelper;
 
 /**
  *
@@ -31,34 +36,44 @@ import org.apache.commons.io.FileUtils;
  */
 public class DataParser {
 
+    public static final TileSet TILE_SET = new TileSet();
+
+    private static List<GameCharacter> characters;
+    private static List<Zone> zones = new ArrayList<>();
+    private static List<Puzzle> puzzles;
+    private static List<Sound> sounds;
+
     public static void main(String[] args) throws IOException {
+        String directory = new File("src/site/resources").getAbsolutePath();
         DataParser parser = new DataParser();
 
-        for (Map.Entry<Integer, String> entry : tileNames.entrySet()) {
-            int id = entry.getKey();
-            String name = entry.getValue();
-            Tile tile = TileManager.get(id);
-            tile.getImage().saveImage("src/site/resources/items/" + name + " (" + id + ")");
+        for (Tile tile : TILE_SET) {
+            Properties properties = tile.getProperties();
+            int id = tile.getId();
+            String name = properties.getProperty("Name");
+            if (name != null) {
+                saveImage(directory + "/items/" + name + " (" + id + ")", tile.getImage());
+            }
         }
-        for (Tile tile : TileManager.getTiles()) {
-            tile.getImage().saveImage("src/site/resources/tiles/" + tile.getId());
+        for (Tile tile : TILE_SET) {
+            tile.setSource(tile.getId() + ".png");
+            saveImage(directory + "/tiles/" + tile.getId(), tile.getImage());
         }
-        TileManager.saveTileSet("/Volumes/Documents/Yoda Stories.tsx");
+        TILE_SET.setName("Yoda Stories");
+        TILE_SET.setSource(directory + "/tiles/" + TILE_SET.getName() + ".tsx");
+
+        TMXMapWriter writer = new TMXMapWriter();
+        writer.writeTileset(TILE_SET, TILE_SET.getSource());
 
         for (Zone zone : zones) {
             File file = new File("src/site/apt/maps/" + zone.getId(), "index.apt");
-            FileUtils.writeStringToFile(file, "[combined.png] Map Image");
+            FileUtils.writeStringToFile(file, "[combined.png] Map Image", "UTF-8");
         }
         for (Zone zone : zones) {
-            zone.saveImage("src/site/resources/maps");
+            zone.saveImage(directory + "/maps");
+            writer.writeMap(zone.getMap(), directory + "/maps/" + zone.getId() + "/tiled.tmx");
         }
     }
-
-    private static List<GameCharacter> characters;
-    private static List<Zone> zones = new ArrayList<Zone>();
-    private static List<Puzzle> puzzles;
-    private static List<Sound> sounds;
-    private static Map<Integer, String> tileNames = new HashMap<Integer, String>();
 
     public DataParser() {
 
@@ -101,7 +116,10 @@ public class DataParser {
 
                     case TILE:
                         TilesReader tilesReader = new TilesReader(binaryReader);
-                        TileManager.setTiles(tilesReader.readObject());
+                        List<Tile> tiles = tilesReader.readObject();
+                        for (Tile tile : tiles) {
+                            TILE_SET.addTile(tile);
+                        }
                         break;
 
                     case TNAM:
@@ -112,7 +130,8 @@ public class DataParser {
                             int itemNumber = tileNamesInput.readUInt16();
                             String itemName = tileNamesInput.readChars(24);
                             if (itemNumber != Character.MAX_VALUE) {
-                                tileNames.put(itemNumber, itemName);
+                                Tile tile = TILE_SET.getTile(itemNumber);
+                                tile.getProperties().setProperty("Name", itemName);
                             }
                         }
                         System.out.println("");
@@ -124,6 +143,9 @@ public class DataParser {
                         InputStream charactersInput = new ByteArrayInputStream(charactersData);
                         CharactersReader charactersReader = new CharactersReader(charactersInput);
                         characters = charactersReader.readObject();
+                        for (GameCharacter character : characters) {
+                            
+                        }
                         break;
 
                     case ZONE:
@@ -146,5 +168,11 @@ public class DataParser {
 
     public List<Zone> getZones() {
         return zones;
+    }
+
+    private static void saveImage(String source, Image image) throws IOException {
+        File file = new File(source + ".png");
+        FileUtils.writeByteArrayToFile(file, ImageHelper.imageToPNG(image));
+        System.out.printf("Saved Tile %s\n", file.getAbsolutePath());
     }
 }

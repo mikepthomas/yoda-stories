@@ -8,6 +8,7 @@ package com.zachtronics.yodastories.zone;
 import com.zachtronics.yodastories.parser.BinaryReader;
 import com.zachtronics.yodastories.zone.action.ActionReader;
 import com.zachtronics.yodastories.zone.map.TileMapReader;
+
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -92,7 +93,6 @@ public class ZoneReader extends BinaryReader {
                 case 9:
                     System.out.println("door (in) " + arg);
                     // open doors
-                    zone.getMap().getMiddleTiles()[x][y] = null;
                     break;
                 case 10:
                     System.out.println("door (out)");

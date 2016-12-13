@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="18" height="18" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
+ <layer name="Bottom" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJydU0kOwyAMxG14S5/Tc5cTUo8JaUovfX1BgGJGrDkMMsIe24NNQghqYLGHspjJ2/g+dXA4GHus
+Fl/ydk+MLuTkeNOOVv7a+6fAcwY/p4OmOqcJfca7CrYUXoON9ny6wIFQFT8zoCnHCvkvGZ+fTP/5
+VNBuYzx3Zl8H6+E8j2DfLJ4H+svxt+aJRKoJ1vTqmKUINwO5f4u6Y09YG85e6e/5XTbqm8AX33ty
+OvA9GMXM4tzsOJ1Q51b8QumOHQHuzR+rNB+n
+  </data>
+ </layer>
+ <layer name="Middle" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJyNU0lOw0AQbGRbluANuXByvIQbdiJwlivfQIgnsBzhAYgLCCR4CJ+jW9OlKQ9ESkmlGaenq6t7
+JjsROd/DrUyxo9hcOVBsmcQ5/9LPQ2P0/e1RWDtl5edNZ6O8UH6VIt9lyIde5fuR9NJ6A8VN70M1
+Psvolf2w3lsu8p6H+NZ1euWZskk8H4rO610fkLdvfoBp1H5uLn/xpD0+l3F+d4XIfRH7MbTeg/Wz
+/Ke2JB5sLg+q8VjEfmbZVJN1UPs0C5o3yivq50V1fiRQ3IvNuaZcQyXTOzS85kF3kKjRUu2BNFgL
+/Y3uy7BSrpPcdN+4P9SHxonf5cI1+D468sSa/O5N75jeA95+Q/6ghRU14MXuoCEv7B3vgGGzayl/
+I+FdM2rad0ls5efRs+XzfBf0bTH8b1KNta+9k73UyTcwy2KNXuK98XwZqA/Cd/obwG/5F8YMNow=
+  </data>
+ </layer>
+ <layer name="Top" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+mMPOwDCXnXJzZgDNmInHnF2UWzEsAaXhgk3/RgrN7GeF4BpWCg0aZGA0DQ4vAAD52wfJ
+  </data>
+ </layer>
+</map>
