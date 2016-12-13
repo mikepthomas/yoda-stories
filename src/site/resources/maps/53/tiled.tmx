@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="18" height="18" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
+ <layer name="Bottom" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYARiZihNSxzFiMpnxaEujZF8O/D5I5pCc9nQxNIpMI8aYcmERRxZDFf40hLnUSlMikk0
+JwZNfSoWNSkDFFfkhmM+njAgNi2DwrGExLBkQWLnYtGbjMYvABJFjKh60N2Pyw2pWMSZkcwthGJk
+88kpq4gNBwCPJw3f
+  </data>
+ </layer>
+ <layer name="Middle" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJy9k00KwkAMhQNacOtGQQR1WQTd2Spqq0cQb+aFTWiCz5iZIoiBt2gy8+VnUqLf2YFVsY49vj47
+sS6sFWuiWmqs/ZJXs/asx5BoPOjYO+WTxnytUQ+N5ja/8IxPLoY5kG9+0dnVaT2LrRM95Gzj8peu
+/kp7iDgW3wa93Ir3+1f67MsYTcD2/ePc5Ts3B8k1p/S8Ij+azO1edLmmmXN9ZjUJZ0avnVywRnAu
+tT+ehTVLfQQcmXcNcb+fnos+2wF8r4gj/BbqxP3GHbD79uYRh4LzKZO9jt4N/4syuPdPewISIR/Q
+  </data>
+ </layer>
+ <layer name="Top" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+</map>

@@ -6,6 +6,7 @@
 package com.zachtronics.yodastories.puzzle;
 
 import com.zachtronics.yodastories.parser.BinaryReader;
+
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -23,7 +24,7 @@ public class PuzzlesReader extends BinaryReader {
     }
 
     public List<Puzzle> readObject() throws IOException {
-        List puzzles = new ArrayList<Puzzle>();
+        List puzzles = new ArrayList<>();
         while (available() != 0) {
             int puzzleNumber = readUInt16();
             if (puzzleNumber != Character.MAX_VALUE) {

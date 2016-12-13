@@ -6,10 +6,14 @@
 package com.zachtronics.yodastories.zone.map;
 
 import com.zachtronics.yodastories.parser.BinaryReader;
-import com.zachtronics.yodastories.tile.Tile;
-import com.zachtronics.yodastories.tile.TileManager;
+import com.zachtronics.yodastories.parser.DataParser;
+
 import java.io.IOException;
 import java.io.InputStream;
+
+import tiled.core.Map;
+import tiled.core.Tile;
+import tiled.core.TileLayer;
 
 /**
  *
@@ -21,31 +25,41 @@ public class TileMapReader extends BinaryReader {
         super(in);
     }
 
-    public TileMap readObject(int width, int height) throws IOException {
-        Tile[][] bottomTiles = new Tile[width][height];
-        Tile[][] middleTiles = new Tile[width][height];
-        Tile[][] topTiles = new Tile[width][height];
+    public Map readObject(int width, int height) throws IOException {
+        Map map = new Map(width, height);
+        map.addTileset(DataParser.TILE_SET);
+
+        TileLayer bottomLayer = new TileLayer(map, width, height);
+        bottomLayer.setName("Bottom");
+        map.addLayer(bottomLayer);
+
+        TileLayer middleLayer = new TileLayer(map, width, height);
+        middleLayer.setName("Middle");
+        map.addLayer(middleLayer);
+
+        TileLayer topLayer = new TileLayer(map, width, height);
+        topLayer.setName("Top");
+        map.addLayer(topLayer);
+
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
                 int bottomTile = readUInt16();
                 if (bottomTile != 0xFFFF) {
-                    bottomTiles[x][y] = TileManager.get(bottomTile);
+                    Tile tile = DataParser.TILE_SET.getTile(bottomTile);
+                    bottomLayer.setTileAt(x, y, tile);
                 }
                 int middleTile = readUInt16();
                 if (middleTile != 0xFFFF) {
-                    middleTiles[x][y] = TileManager.get(middleTile);
+                    Tile tile = DataParser.TILE_SET.getTile(middleTile);
+                    middleLayer.setTileAt(x, y, tile);
                 }
                 int topTile = readUInt16();
                 if (topTile != 0xFFFF) {
-                    topTiles[x][y] = TileManager.get(topTile);
+                    Tile tile = DataParser.TILE_SET.getTile(topTile);
+                    topLayer.setTileAt(x, y, tile);
                 }
             }
         }
-
-        TileMap map = new TileMap();
-        map.setTopTiles(topTiles);
-        map.setMiddleTiles(middleTiles);
-        map.setBottomTiles(bottomTiles);
 
         return map;
     }

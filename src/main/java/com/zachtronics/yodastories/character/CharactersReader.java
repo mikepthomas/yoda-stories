@@ -6,6 +6,7 @@
 package com.zachtronics.yodastories.character;
 
 import com.zachtronics.yodastories.parser.BinaryReader;
+
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -23,7 +24,7 @@ public class CharactersReader extends BinaryReader {
     }
 
     public List<GameCharacter> readObject() throws IOException {
-        List characters = new ArrayList<GameCharacter>();
+        List characters = new ArrayList<>();
         while (available() != 0) {
             int charId = readUInt16();
             String icha = readChars(4);

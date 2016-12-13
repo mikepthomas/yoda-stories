@@ -5,19 +5,25 @@
  */
 package com.zachtronics.yodastories.canvas;
 
+import com.jogamp.opengl.GL2;
+import static com.jogamp.opengl.GL2.*;
+import com.jogamp.opengl.GLAutoDrawable;
+import com.jogamp.opengl.GLEventListener;
+import com.jogamp.opengl.GLProfile;
+import com.jogamp.opengl.awt.GLCanvas;
+import com.jogamp.opengl.glu.GLU;
 import com.jogamp.opengl.util.texture.Texture;
+import com.jogamp.opengl.util.texture.awt.AWTTextureIO;
 import com.zachtronics.yodastories.parser.DataParser;
-import com.zachtronics.yodastories.tile.Tile;
 import com.zachtronics.yodastories.zone.Zone;
+
 import java.awt.event.KeyEvent;
 import static java.awt.event.KeyEvent.*;
 import java.awt.event.KeyListener;
-import javax.media.opengl.GL2;
-import static javax.media.opengl.GL2.*;
-import javax.media.opengl.GLAutoDrawable;
-import javax.media.opengl.GLEventListener;
-import javax.media.opengl.awt.GLCanvas;
-import javax.media.opengl.glu.GLU;
+import java.awt.image.BufferedImage;
+
+import tiled.core.Tile;
+import tiled.core.TileLayer;
 
 /**
  * Yodaplay.
@@ -33,7 +39,7 @@ public class MapCanvas extends GLCanvas implements GLEventListener, KeyListener 
     private final GLU glu = new GLU(); // get GL Utilities
 
     // Filtering
-    private boolean isLinearFiltered;
+    private int filter = GL_NEAREST;
 
     // Lighting
     private boolean isLightOn;
@@ -79,7 +85,6 @@ public class MapCanvas extends GLCanvas implements GLEventListener, KeyListener 
 
         // Generate mipmap
         gl.glGenerateMipmap(GL_TEXTURE_2D);
-        isLinearFiltered = false;
         
         // Set up the lighting for Light-1
         // Ambient light does not come from a particular direction. Need some ambient
@@ -168,9 +173,12 @@ public class MapCanvas extends GLCanvas implements GLEventListener, KeyListener 
         for (int y = 0; y < numTilesHigh; y++) {
             for (int x = 0; x < numTilesWide; x++) {
 
-                renderTile(gl, zone.getMap().getBottomTiles()[x][y]);
-                renderTile(gl, zone.getMap().getMiddleTiles()[x][y]);
-                renderTile(gl, zone.getMap().getTopTiles()[x][y]);
+                TileLayer bottomTiles = (TileLayer) zone.getMap().getLayer(0);
+                TileLayer middleTiles = (TileLayer) zone.getMap().getLayer(1);
+                TileLayer topTiles = (TileLayer) zone.getMap().getLayer(2);
+                renderTile(gl, bottomTiles.getTileAt(x, y));
+                renderTile(gl, middleTiles.getTileAt(x, y));
+                renderTile(gl, topTiles.getTileAt(x, y));
 
                 gl.glTranslated(tileWidth, 0, 0);
             }
@@ -180,7 +188,10 @@ public class MapCanvas extends GLCanvas implements GLEventListener, KeyListener 
 
     private void renderTile(GL2 gl, Tile tile) {
         if (tile != null) {
-            Texture texture = tile.getImage().getTexture(gl, isLinearFiltered);
+            BufferedImage image = (BufferedImage) tile.getImage();
+            Texture texture = AWTTextureIO.newTexture(GLProfile.getDefault(), image, false);
+            gl.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, filter);
+            gl.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, filter);
 
             // Enables this texture's target in the current GL context's state.
             texture.enable(gl);
@@ -224,7 +235,15 @@ public class MapCanvas extends GLCanvas implements GLEventListener, KeyListener 
                 isLightOn = !isLightOn;
                 break;
             case VK_F: // toggle filter (NEAREST, LINEAR)
-                isLinearFiltered = ! isLinearFiltered;
+                if (filter == GL_NEAREST) {
+                    // Linear filter is more compute-intensive
+                    filter = GL_LINEAR;
+                    System.out.println("Filtering on");
+                } else {
+                    // Nearest filter is least compute-intensive
+                    filter = GL_NEAREST;
+                    System.out.println("Filtering off");
+                }
                 break;
             case VK_LEFT: // switch to the previous zone
                 if (currZone > 0) {

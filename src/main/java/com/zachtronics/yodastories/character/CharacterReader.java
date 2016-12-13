@@ -6,6 +6,7 @@
 package com.zachtronics.yodastories.character;
 
 import com.zachtronics.yodastories.parser.BinaryReader;
+
 import java.io.IOException;
 import java.io.InputStream;
 

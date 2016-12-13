@@ -29,7 +29,7 @@ public class BinaryReader extends FilterInputStream {
         byte buf[] = readBytes(size);
         int i;
         for (i = 0; i < buf.length && buf[i] != 0; i++) { }
-        return new String(buf, 0, i, "ISO-8859-1");
+        return new String(buf, 0, i, "UTF-8");
     }
 
     public long readUInt32() throws IOException {
@@ -40,7 +40,7 @@ public class BinaryReader extends FilterInputStream {
         return convertUInt16(readBytes(Short.BYTES));
     }
 
-    private int convertUInt32(byte[] bytes) {
+    private long convertUInt32(byte[] bytes) {
         return ((bytes[3] & 0xFF) << 24)
              | ((bytes[2] & 0xFF) << 16)
              | convertUInt16(bytes);

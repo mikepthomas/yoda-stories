@@ -6,6 +6,7 @@
 package com.zachtronics.yodastories.zone;
 
 import com.zachtronics.yodastories.parser.BinaryReader;
+
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -23,7 +24,7 @@ public class ZonesReader extends BinaryReader {
     }
 
     public List<Zone> readObject() throws IOException {
-        List<Zone> zones = new ArrayList<Zone>();
+        List<Zone> zones = new ArrayList<>();
         int count = readUInt16();
         for (int i = 0; i < count; i++) {
             int zoneUnknown = readUInt16();

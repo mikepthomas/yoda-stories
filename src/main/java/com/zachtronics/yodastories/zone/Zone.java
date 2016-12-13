@@ -5,14 +5,17 @@
  */
 package com.zachtronics.yodastories.zone;
 
-import com.zachtronics.yodastories.tile.Tile;
-import com.zachtronics.yodastories.zone.map.TileMap;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+
 import javax.imageio.ImageIO;
+
+import tiled.core.Map;
+import tiled.core.MapLayer;
+import tiled.core.TileLayer;
 
 /**
  *
@@ -22,7 +25,7 @@ public class Zone {
 
     private int id;
     private int width, height;
-    private TileMap map;
+    private Map map;
 
     public int getId() {
         return id;
@@ -48,11 +51,11 @@ public class Zone {
         this.height = height;
     }
 
-    public TileMap getMap() {
+    public Map getMap() {
         return map;
     }
 
-    public void setMap(TileMap map) {
+    public void setMap(Map map) {
         this.map = map;
     }
 
@@ -73,14 +76,15 @@ public class Zone {
         return graphics;
     }
 
-    private BufferedImage renderImage(Tile[][] tileMap) {
+    private BufferedImage renderImage(MapLayer mapLayer) {
+        TileLayer tileLayer = (TileLayer) mapLayer;
         BufferedImage image = new BufferedImage(width * 32, height * 32, BufferedImage.TYPE_INT_ARGB);
         Graphics2D graphics = getGraphics(image);
 
-        for (int y = 0; y < height; y++) {
-            for (int x = 0; x < width; x++) {
-                if (tileMap[y][x] != null) {
-                    graphics.drawImage(tileMap[y][x].getImage().getBufferedImage(), y * 32, x * 32, null);
+        for (int x = 0; x < height; x++) {
+            for (int y = 0; y < width; y++) {
+                if (tileLayer.getTileAt(x, y) != null) {
+                    graphics.drawImage(tileLayer.getTileAt(x, y).getImage(), x * 32, y * 32, null);
                 }
             }
         }
@@ -92,9 +96,9 @@ public class Zone {
         BufferedImage image = new BufferedImage(width * 32, height * 32, BufferedImage.TYPE_INT_RGB);
         Graphics2D graphics = getGraphics(image);
 
-        graphics.drawImage(renderImage(map.getBottomTiles()), 0, 0, null);
-        graphics.drawImage(renderImage(map.getMiddleTiles()), 0, 0, null);
-        graphics.drawImage(renderImage(map.getTopTiles()), 0, 0, null);
+        graphics.drawImage(renderImage(map.getLayer(0)), 0, 0, null);
+        graphics.drawImage(renderImage(map.getLayer(1)), 0, 0, null);
+        graphics.drawImage(renderImage(map.getLayer(2)), 0, 0, null);
         System.out.printf("Rendered Map %d\n", id);
         return image;
     }
@@ -109,15 +113,15 @@ public class Zone {
         
         if (allLayers) {
             File bottomFile = new File(dir + '/' + id, "bottom.png");
-            ImageIO.write(renderImage(map.getBottomTiles()), "png", bottomFile);
+            ImageIO.write(renderImage(map.getLayer(0)), "png", bottomFile);
             System.out.printf("Saved Map %s\n", bottomFile.getAbsolutePath());
 
             File middleFile = new File(dir + '/' + id, "middle.png");
-            ImageIO.write(renderImage(map.getMiddleTiles()), "png", middleFile);
+            ImageIO.write(renderImage(map.getLayer(1)), "png", middleFile);
             System.out.printf("Saved Map %s\n", middleFile.getAbsolutePath());
 
             File topFile = new File(dir + '/' + id, "top.png");
-            ImageIO.write(renderImage(map.getTopTiles()), "png", topFile);
+            ImageIO.write(renderImage(map.getLayer(2)), "png", topFile);
             System.out.printf("Saved Map %s\n", topFile.getAbsolutePath());
             
         }

@@ -6,10 +6,9 @@
 package com.zachtronics.yodastories.zone.action;
 
 import com.zachtronics.yodastories.parser.BinaryReader;
+
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  *
@@ -24,9 +23,7 @@ public class ActionReader extends BinaryReader {
     public Action readObject() throws IOException {
         Action action = new Action();
 
-        available();
-
-        ActionType actionType= ActionType.parse(readUInt16());
+        ActionType actionType = ActionType.parse(readUInt16());
         DataType dataType = DataType.parse(readUInt16());
 
         int x = readUInt16();
