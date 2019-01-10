@@ -4,26 +4,17 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJyVk1EOgjAQREt6yraosSoeRQ/AFw3+Ey/pGrthsu5q+ZgATXnbndmOnXO9d25HOpNSgyZ4P5HG
-7qMM62EDqyic1v+x3pV0BM6B3gel3lxrat+RdCHtgYMs7P29Huo/uJeVFFb/x2eL09JbEn1NgheF
-z1buxeueoU9W7qhozMJSn0/g/PIlAEurgd5kUdvqSeNgVlZPrXPJrOzXGd8603jHMO9FZMvZzMb8
-yLuBveE+zFdblzPYGxxek+fhzNFnzn1QOJYwX/T5RrpX1sNgFf99TvT5Bbh7kgc=
+   eJyVk1EOgjAQREt6yraosSoeRQ/AFw3+Ey/pGrthsu5q+ZgATXnbndmOnXO9d25HOpNSgyZ4P5HG7qMM62EDqyic1v+x3pV0BM6B3gel3lxrat+RdCHtgYMs7P29Huo/uJeVFFb/x2eL09JbEn1NgheFz1buxeueoU9W7qhozMJSn0/g/PIlAEurgd5kUdvqSeNgVlZPrXPJrOzXGd8603jHMO9FZMvZzMb8yLuBveE+zFdblzPYGxxek+fhzNFnzn1QOJYwX/T5RrpX1sNgFf99TvT5Bbh7kgc=
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJyNVAEKwjAMLFTcF/2P/kClG5Sq28Qhe4bf8Q92NAdnXFsDhZEml8slnTHrFqwxLp5LPO9t8rXx
-u7Ppu5e7nE3xbrQJ506xC8a1kqsNOTvKY9y5grVwAcYgsWs56LNkD5t6v5EW4OjldNJ7jRM0Zqwg
-fWp/yZAzqNhe/NAp19+s9JkqNd0mxm9++wEX1HtRvZa0WexZqYGeeE94D/7RBvvHusDnxF/aY973
-oHbYCxe8kUCcSrNHnKdeHM1b73nOZuHu1Owxc557SR/9LpgnNNo3xhyaMh/+X8CADX/unR6j/2S/
-caCRJ36Y1ah2aw3rrLRljYLN6/IBrHxk9w==
+   eJyNVAEKwjAMLFTcF/2P/kClG5Sq28Qhe4bf8Q92NAdnXFsDhZEml8slnTHrFqwxLp5LPO9t8rXxu7Ppu5e7nE3xbrQJ506xC8a1kqsNOTvKY9y5grVwAcYgsWs56LNkD5t6v5EW4OjldNJ7jRM0ZqwgfWp/yZAzqNhe/NAp19+s9JkqNd0mxm9++wEX1HtRvZa0WexZqYGeeE94D/7RBvvHusDnxF/aY973oHbYCxe8kUCcSrNHnKdeHM1b73nOZuHu1Owxc557SR/9LpgnNNo3xhyaMh/+X8CADX/unR6j/2S/caCRJ36Y1ah2aw3rrLRljYLN6/IBrHxk9w==
   </data>
  </layer>
  <layer name="Top" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFy5kR7I1A9iYg3owktg7IXg/EG5gZcIJlaHK49KzFYwa6W4jVQ6ybSAXYwoIctdjCApfb
-8JkD0oMeFtjCC2bnFhxxhksPLkBu+A8EICXO8AFi0jyxgFD40cPNGUCxTCDOItIOXG7uBor3A3E+
-CWbhAiCzeoC4d4DTFwAsASeg
+   eJxjYEAFy5kR7I1A9iYg3owktg7IXg/EG5gZcIJlaHK49KzFYwa6W4jVQ6ybSAXYwoIctdjCApfb8JkD0oMeFtjCC2bnFhxxhksPLkBu+A8EICXO8AFi0jyxgFD40cPNGUCxTCDOItIOXG7uBor3A3E+CWbhAiCzeoC4d4DTFwAsASeg
   </data>
  </layer>
 </map>

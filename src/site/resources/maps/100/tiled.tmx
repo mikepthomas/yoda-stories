@@ -4,8 +4,7 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjZGBgYKQAs1Con16YmY52sQ4C/1KKSYnXwezfaMaBdwM2HIPDXaB0mkJAb9Qg9dNgwJTmcwDg
-RALN
+   eJxjZGBgYKQAs1Con16YmY52sQ4C/1KKSYnXwezfaMaBdwM2HIPDXaB0mkJAb9Qg9dNgwJTmcwDgRALN
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">

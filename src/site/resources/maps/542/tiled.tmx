@@ -4,27 +4,17 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJy1kt0OgjAMhWeW7FmMEl5I/Atyr96Bu+IZ9sCugcYyu3aJePGFpF1P21PCxpjGGnMknCIhxis3
-fXN5joP90JH3oHGzyzzq7F25XqpRu+95cO57jD8InCYwzvmnsBenSfOjUr9zE2k8nVHS+DfSHbi7
-c/togN+tLetJfQfOse5CuK7gVZXpD3PlcsBr5tf+PePjGrpeuc8g7IR4RscTz/B2A1MneRvIG8pW
-mZebr9QP7T9D3lb6pnk=
+   eJy1kt0OgjAMhWeW7FmMEl5I/Atyr96Bu+IZ9sCugcYyu3aJePGFpF1P21PCxpjGGnMknCIhxis3fXN5joP90JH3oHGzyzzq7F25XqpRu+95cO57jD8InCYwzvmnsBenSfOjUr9zE2k8nVHS+DfSHbi7c/togN+tLetJfQfOse5CuK7gVZXpD3PlcsBr5tf+PePjGrpeuc8g7IR4RscTz/B2A1MneRvIG8pWmZebr9QP7T9D3lb6pnk=
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJy9VFsKwjAQTKnVS3gF7yGKIHoFryA+MGob6Y9+ew2fB3QXN3SaxqaCODC03c1MdjehSv0Ws6jM
-utw2VqrXrnpsKK6F67iqs9Rx4RMCeroerD93vusT/awHY0TPCbDvqS2H2JH2PQX25vXjQI/oc0mU
-ugpvyTtmSD8kDhrMitHt+H2aemA9d9I+hE/x4X5MYDZ1sPcmNBeLBZ310uEqKnLTuPiu0+2IGaxL
-6X0PuQPfx6h6r7XkDDxZl8scbD4TrfXFmjiuHQ/08tXH63OpyUUqOeuBunmr3D/29gl4dvZsUW+g
-xxB8/4V/4AWNGUU9
+   eJy9VFsKwjAQTKnVS3gF7yGKIHoFryA+MGob6Y9+ew2fB3QXN3SaxqaCODC03c1MdjehSv0Ws6jMutw2VqrXrnpsKK6F67iqs9Rx4RMCeroerD93vusT/awHY0TPCbDvqS2H2JH2PQX25vXjQI/oc0mUugpvyTtmSD8kDhrMitHt+H2aemA9d9I+hE/x4X5MYDZ1sPcmNBeLBZ310uEqKnLTuPiu0+2IGaxL6X0PuQPfx6h6r7XkDDxZl8scbD4TrfXFmjiuHQ/08tXH63OpyUUqOeuBunmr3D/29gl4dvZsUW+gxxB8/4V/4AWNGUU9
   </data>
  </layer>
  <layer name="Top" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgyGBmYMhEwllAjAwIycNACVC8FIorgDgfST3IjDwgzgHiSiBuBOIyHOaAwEag3CYg3oxm
-HrIZIP3nWDHVI4N1QH4rEG9gxnRjKRY3oKtHASy43YsOWphJUw8Ca4B+WQvF66D+kmDHVIfLr+hA
-A02+hRS/4gHY3ETIr0VQTA4g1r+EAMy/6OFAFmDBEQ4EALX9Aos7mJ9KSExzYICkB5+fyDIbCyil
-kjm0AABouyv/
+   eJxjYGBgyGBmYMhEwllAjAwIycNACVC8FIorgDgfST3IjDwgzgHiSiBuBOIyHOaAwEag3CYg3oxmHrIZIP3nWDHVI4N1QH4rEG9gxnRjKRY3oKtHASy43YsOWphJUw8Ca4B+WQvF66D+kmDHVIfLr+hAA02+hRS/4gHY3ETIr0VQTA4g1r+EAMy/6OFAFmDBEQ4EALX9Aos7mJ9KSExzYICkB5+fyDIbCyilkjm0AABouyv/
   </data>
  </layer>
 </map>

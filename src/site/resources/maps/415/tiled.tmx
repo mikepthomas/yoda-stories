@@ -9,14 +9,12 @@
  </layer>
  <layer name="Middle" width="9" height="9">
   <data encoding="base64" compression="zlib">
-   eJyTZmJgsAViKyhtg8ZXAGIlIOZmZMAKQOKKQHkLVgYGSyDWgeo1hOqFAUUoW4SNgUGUDcLez4IQ
-VwXSMlC2GFBenA1T7yyg+XJAtjwTql0wORDggroHn5uR1XAR8JcyMyoGAXQxAN2ECas=
+   eJyTZmJgsAViKyhtg8ZXAGIlIOZmZMAKQOKKQHkLVgYGSyDWgeo1hOqFAUUoW4SNgUGUDcLez4IQVwXSMlC2GFBenA1T7yyg+XJAtjwTql0wORDggroHn5uR1XAR8JcyMyoGAXQxAN2ECas=
   </data>
  </layer>
  <layer name="Top" width="9" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYMAPilkZGNKY8KspYiVgCJIaATYGBkE2hHg60GwjoJwJEC+HqhECygujqUF2D7F2UUONPQth
-DABhnAhT
+   eJxjYMAPilkZGNKY8KspYiVgCJIaATYGBkE2hHg60GwjoJwJEC+HqhECygujqUF2D7F2UUONPQthDABhnAhT
   </data>
  </layer>
 </map>

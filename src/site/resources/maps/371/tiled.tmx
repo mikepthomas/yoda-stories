@@ -4,27 +4,17 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJydkk0OgkAMhSGTcBZF4z1MTIxrwYXKnp+NURfGeAQObCe04VGKTFx8GTJM37x2XhtHUQukSbeu
-kuF+KL4uc1F0ItaGRhqo6zWuREHkrPePnzPVHYGLG9+TM/e4w/Jr6UivOXvF/17nQTxn/HmdzKhH
-rLqS9iumIWo39qg1pmZ4cD07dQY13nxfPaGD9+/d0KPuOfTNtuwLe26g55AMTM1R3m4uW7oPOa/f
-vlBaSyPrGcyl5no9Z8zpwtB4ETej5ghasnod7UMy/mGsepyXfFv9SM4l66i1SfrM6NmFgpnzsygD
-3h5zUrnfmdV8AWvNnSs=
+   eJydkk0OgkAMhSGTcBZF4z1MTIxrwYXKnp+NURfGeAQObCe04VGKTFx8GTJM37x2XhtHUQukSbeukuF+KL4uc1F0ItaGRhqo6zWuREHkrPePnzPVHYGLG9+TM/e4w/Jr6UivOXvF/17nQTxn/HmdzKhHrLqS9iumIWo39qg1pmZ4cD07dQY13nxfPaGD9+/d0KPuOfTNtuwLe26g55AMTM1R3m4uW7oPOa/fvlBaSyPrGcyl5no9Z8zpwtB4ETej5ghasnod7UMy/mGsepyXfFv9SM4l66i1SfrM6NmFgpnzsygD3h5zUrnfmdV8AWvNnSs=
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJzFUlEKwjAMTSl4G++hU0ERb7A7qNBWx3Re29QlmIUUuh8NvI+2eS/vbQH4X50dwIVwdfP5vQd4
-IS8iBkSPSIZO676QXKs67HnM0LHe+P1kzAh4Fwk3RPJTvqW1w55VwW+NR56XZ+2VzgbPBz/6GoQf
-5pQyax15zr1JnIPIy5l5biP6BuGPZ7KnbSG/9qHvZY5ca5qr0VToc45U6OVaLqbnvOdHX95x/b+t
-/fpkoR2/u9GLxavRydWRxpPyWDz97Uo55e4wP6pvFdS+WyX3RPN/VW8sMDzT
+   eJzFUlEKwjAMTSl4G++hU0ERb7A7qNBWx3Re29QlmIUUuh8NvI+2eS/vbQH4X50dwIVwdfP5vQd4IS8iBkSPSIZO676QXKs67HnM0LHe+P1kzAh4Fwk3RPJTvqW1w55VwW+NR56XZ+2VzgbPBz/6GoQf5pQyax15zr1JnIPIy5l5biP6BuGPZ7KnbSG/9qHvZY5ca5qr0VToc45U6OVaLqbnvOdHX95x/b+t/fpkoR2/u9GLxavRydWRxpPyWDz97Uo55e4wP6pvFdS+WyX3RPN/VW8sMDzT
   </data>
  </layer>
  <layer name="Top" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJzNU9EOgjAMXDITf8FPBEV4QdDoo/6OAf1BuzCS2zm2ypOXXCBLe+11nTF63K0urpC4PcVi7m6r
-06iFjbAEPU0u4iB5FfBIfRVev6Q6jFbOT569sLNhfk11moTWkteKePH1OtAZ5f8lfFN9V2vu8Zzx
-7PCUs4dwsGF9F3uzoeeePH9hM31w1r/4Z7CPWP8asA/uH2e3BrG7z2nxvsV2J+d5aV9wZzSz47eB
-+VeYXfLuTbgn8xtJxf8zPmg2O40=
+   eJzNU9EOgjAMXDITf8FPBEV4QdDoo/6OAf1BuzCS2zm2ypOXXCBLe+11nTF63K0urpC4PcVi7m6r06iFjbAEPU0u4iB5FfBIfRVev6Q6jFbOT569sLNhfk11moTWkteKePH1OtAZ5f8lfFN9V2vu8Zzx7PCUs4dwsGF9F3uzoeeePH9hM31w1r/4Z7CPWP8asA/uH2e3BrG7z2nxvsV2J+d5aV9wZzSz47eB+VeYXfLuTbgn8xtJxf8zPmg2O40=
   </data>
  </layer>
 </map>

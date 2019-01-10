@@ -4,25 +4,17 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJzVlEsOgzAMRFNZyln6uxEfqSnsU3qDrto9By5RbTE4NvsuRqCJefHEEfMhhPkPdY22f3b8opZC
-6Fg92V4Lax5jWNSwxE/8XryRa0aHZTF0XUNb3anOmVTNY9FEaz+a0VDdB+6LdTfHl3zISexl7gHX
-hG+t6VwJ+FJf9IJc4j/5ibnKnbhEO0tmhjfbwciVYQ89N+n7vez3ifVM9bxEkgXPsjf41rywp4m2
-vQurcxhe7pNxjyxlPvPJ4Xiy7t8x/uR9o2es781enr1/AHKFrfN8ASs5ncc=
+   eJzVlEsOgzAMRFNZyln6uxEfqSnsU3qDrto9By5RbTE4NvsuRqCJefHEEfMhhPkPdY22f3b8opZC6Fg92V4Lax5jWNSwxE/8XryRa0aHZTF0XUNb3anOmVTNY9FEaz+a0VDdB+6LdTfHl3zISexl7gHXhG+t6VwJ+FJf9IJc4j/5ibnKnbhEO0tmhjfbwciVYQ89N+n7vez3ifVM9bxEkgXPsjf41rywp4m2vQurcxhe7pNxjyxlPvPJ4Xiy7t8x/uR9o2es781enr1/AHKFrfN8ASs5ncc=
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJzVUkEOwjAMK4v4AiCN5/EFbqU9TOLdbKLWTOSGIe2CJR/aRLabJqX/xWT790c9z1a7Hd582Oc9
-alsBjYWlaeR2hgeocnAW1ee9Mvkw4Hm3fh5mT0f1F1u9l3Olms+LHn8Hr/PQ9+I8foY8J2A8pnSd
-eRnWfvUu78E6J5dH+Xgd6Ef/pfZCIQez5B2tP+io3YuyYhcn03/sGeX4lq+SdiHfPfECQ4w7mw==
+   eJzVUkEOwjAMK4v4AiCN5/EFbqU9TOLdbKLWTOSGIe2CJR/aRLabJqX/xWT790c9z1a7Hd582Oc9alsBjYWlaeR2hgeocnAW1ee9Mvkw4Hm3fh5mT0f1F1u9l3Olms+LHn8Hr/PQ9+I8foY8J2A8pnSdeRnWfvUu78E6J5dH+Xgd6Ef/pfZCIQez5B2tP+io3YuyYhcn03/sGeX4lq+SdiHfPfECQ4w7mw==
   </data>
  </layer>
  <layer name="Top" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJzFVFsKg0AMXLDQK/SIWqv+bHX9t9cpfVywkSYwO42PvwYGJRknmd1gCPtjKrY5T+G8BO8i52P+
-dNzWvEv+JngQH/MYyOF+4fDNlfJeKc6a51xptYV+c70VjIKroNd8lGcSXASdcjrSwjla4CIHa4jG
-OSfsyVq1ozHCvNbL+FGfiXhRfRqSM3Pt5CL1wkCPDX1j+nYffK+ef/aF/q1WgubSPD/3Bf5Nw5ub
-PXE920XQ5LNEjXnugXzhLk7gCXepWpkjC93F+XxtngHmWtq/Pf8APrsBtM3P2r3+Mz5/J1Ej
+   eJzFVFsKg0AMXLDQK/SIWqv+bHX9t9cpfVywkSYwO42PvwYGJRknmd1gCPtjKrY5T+G8BO8i52P+dNzWvEv+JngQH/MYyOF+4fDNlfJeKc6a51xptYV+c70VjIKroNd8lGcSXASdcjrSwjla4CIHa4jGOSfsyVq1ozHCvNbL+FGfiXhRfRqSM3Pt5CL1wkCPDX1j+nYffK+ef/aF/q1WgubSPD/3Bf5Nw5ubPXE920XQ5LNEjXnugXzhLk7gCXepWpkjC93F+XxtngHmWtq/Pf8APrsBtM3P2r3+Mz5/J1Ej
   </data>
  </layer>
 </map>

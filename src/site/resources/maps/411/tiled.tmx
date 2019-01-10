@@ -4,26 +4,17 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJzFlFEOgCAIhtXNEzZ5y+wQres3lyxGoNhLD99KkF8QpnfOeYUS7KyTbO2bCNDZPzonMbIC+q06
-o31WHXpXmfxL/sL8INi+ouX3t06t8YzP+og3S3iDPgrV6Z1j7RGw2NmacL5n+4U1SPMv7cf6MWdQ
-4qmOdEc01jL/fE7reyHlh++IRWdmXkb58F5K9r1BbRceX3Ip
+   eJzFlFEOgCAIhtXNEzZ5y+wQres3lyxGoNhLD99KkF8QpnfOeYUS7KyTbO2bCNDZPzonMbIC+q06o31WHXpXmfxL/sL8INi+ouX3t06t8YzP+og3S3iDPgrV6Z1j7RGw2NmacL5n+4U1SPMv7cf6MWdQ4qmOdEc01jL/fE7reyHlh++IRWdmXkb58F5K9r1BbRceX3Ip
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJydVLtuwkAQPA4cKr6AEHxIICEkilQmttJRp6ZPl54PoeQV5R/4Jn6Bll3djrxZnyWSlUY+xnOz
-e7tnjplzpz/iTNj6Gi+Eb+I2HdcI5iwP7of2lD5iQchbfFi39hH8PuWDeO07F0g38s1aguK0j85j
-9RNByodzPerzRhgTCtnLv1dKV2SRY7yLjjloeJ3LXq7novwn3WYNiJQO/Tkkav+kft76v5+IXa9e
-L+ndh/SGdTy/L/+Yjw30GfdgoLTg1vIsE3O1PgvfrCcVtm9j8c+VT2nq0T1o9fXxXgb5PmaJOsBN
-MdNuXBcyk1LNBz72HiIXNIjQcu42H879H5+tzJ77dn2KdxU177N4FuZzk5PPCej/kdT5bF4OfPdB
-1ax9hoS5oBJNpbhno9e4A2P7PnU=
+   eJydVLtuwkAQPA4cKr6AEHxIICEkilQmttJRp6ZPl54PoeQV5R/4Jn6Bll3djrxZnyWSlUY+xnOze7tnjplzpz/iTNj6Gi+Eb+I2HdcI5iwP7of2lD5iQchbfFi39hH8PuWDeO07F0g38s1aguK0j85j9RNByodzPerzRhgTCtnLv1dKV2SRY7yLjjloeJ3LXq7novwn3WYNiJQO/Tkkav+kft76v5+IXa9eL+ndh/SGdTy/L/+Yjw30GfdgoLTg1vIsE3O1PgvfrCcVtm9j8c+VT2nq0T1o9fXxXgb5PmaJOsBNMdNuXBcyk1LNBz72HiIXNIjQcu42H879H5+tzJ77dn2KdxU177N4FuZzk5PPCej/kdT5bF4OfPdB1ax9hoS5oBJNpbhno9e4A2P7PnU=
   </data>
  </layer>
  <layer name="Top" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPLGNFxSCwgJU0jAsQUkeMOSA3rQDilUh4FSt55hACpJizGYh9mAibuRmJ7YWkHpd7VrNi
-YkIAm7qlaPG6nIA5xqwQPSB1PIyo5iC7l5A5uNxDKsDlnoECxKQfI1YINoGq9cKSPnCZs5TIeEI2
-Jw2L+bC8gp5HcAGYvcSCuawIPA8pfSGnN2IAcj5byIpZDqGb48ICyW8gGhlg0wfCAMZ9RPA=
+   eJxjYCAPLGNFxSCwgJU0jAsQUkeMOSA3rQDilUh4FSt55hACpJizGYh9mAibuRmJ7YWkHpd7VrNiYkIAm7qlaPG6nIA5xqwQPSB1PIyo5iC7l5A5uNxDKsDlnoECxKQfI1YINoGq9cKSPnCZs5TIeEI2Jw2L+bC8gp5HcAGYvcSCuawIPA8pfSGnN2IAcj5byIpZDqGb48ICyW8gGhlg0wfCAMZ9RPA=
   </data>
  </layer>
 </map>
