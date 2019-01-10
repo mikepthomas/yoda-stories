@@ -4,10 +4,7 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJyNlEEWhDAIQ11wJad0wf2vNS6mb+I3qIs+20ogCWjGtk2sPFbhzBjGr/3+w6Z5z7tCnfnirlBL
-YxIxCzcMR40dDb87vZqbXlWc+SVqaO4Cbhh8x+2D8/KeHtJ/zct+qTblv/bql/NE+eszkY99cPl2
-yaf1tQ79VC5P/lHbNDhd6u+M/1yNOOslXj1VPHlyfsmx4sqfXif2Guv6xr4m4pyW7j/BuaMux4l6
-nba7b/LprpuBDvsFq7BNWw==
+   eJyNlEEWhDAIQ11wJad0wf2vNS6mb+I3qIs+20ogCWjGtk2sPFbhzBjGr/3+w6Z5z7tCnfnirlBLYxIxCzcMR40dDb87vZqbXlWc+SVqaO4Cbhh8x+2D8/KeHtJ/zct+qTblv/bql/NE+eszkY99cPl2yaf1tQ79VC5P/lHbNDhd6u+M/1yNOOslXj1VPHlyfsmx4sqfXif2Guv6xr4m4pyW7j/BuaMux4l6nba7b/LprpuBDvsFq7BNWw==
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">

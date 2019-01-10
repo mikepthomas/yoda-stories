@@ -4,17 +4,12 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjZGBgYBzEmAWHuDoWMVYsYumMCHYSI2570vDI0Qszk6gulQZujsJiZswAhA22uIThaBzuQdeD
-HqfoacZggOObFpicdIwvXxBSx4ImZ4AjXHHlY2pgfGmFVAwAq7QG0g==
+   eJxjZGBgYBzEmAWHuDoWMVYsYumMCHYSI2570vDI0Qszk6gulQZujsJiZswAhA22uIThaBzuQdeDHqfoacZggOObFpicdIwvXxBSx4ImZ4AjXHHlY2pgfGmFVAwAq7QG0g==
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJytUlsOwkAIRE9jta1/2jY+1p7Eu2iix3ZJmGSKdI1RElKW8hgGRP4nY9Zd1uqL+Ci2D3wrqw0V
-sk8UV5O9KfS+L8vYuhm/x8y4KvJdgjprsnXG5wcMyB+ynl0u28DEfbELvBt5nyll3VId1OV+8DWU
-x7aX3uruC5hVaokFHEU3wH7kdzO1EIcbGO0LPpJ9gRH8PGgnmsO3hTw/m9/jkfowFhW+AeUZ/LdW
-92BvzMRcc51kua3D4mOjO9Z/N8J8XQRB1IfnZa79jgaLFZnOAkFPf8/ag3nw8wCD5yqa+1d5ARto
-HCc=
+   eJytUlsOwkAIRE9jta1/2jY+1p7Eu2iix3ZJmGSKdI1RElKW8hgGRP4nY9Zd1uqL+Ci2D3wrqw0Vsk8UV5O9KfS+L8vYuhm/x8y4KvJdgjprsnXG5wcMyB+ynl0u28DEfbELvBt5nyll3VId1OV+8DWUx7aX3uruC5hVaokFHEU3wH7kdzO1EIcbGO0LPpJ9gRH8PGgnmsO3hTw/m9/jkfowFhW+AeUZ/LdW92BvzMRcc51kua3D4mOjO9Z/N8J8XQRB1IfnZa79jgaLFZnOAkFPf8/ag3nw8wCD5yqa+1d5ARtoHCc=
   </data>
  </layer>
  <layer name="Top" width="18" height="18">

@@ -4,17 +4,12 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJyNVAEOgjAMHInuMei3gK+gwEDF6HPtYhuPsm4mXAZd73Zr2dbKubWAk99+n305tydcANdELurU
-fh+LGgvhxaDHzUqj9rZP1GgJN9aIuBmeUohrBBo79tEQ3qA1Z9bXGAh31nryqHV0/SyfqBX5bfXb
-m/BCZs895GlfwomaM8+PnPMgTKATICb1jjoH4h/d9z3F0b3EWOCedQoyL94XQ0f2qn2PjKnaeseY
-ri/2d1B5OR+WJ/1/Ct/ygedigBzsn9SrMXzocyW8HtaeQD/lo/b7PWleynvpztA1zd0rqXuihH9y
-JecDO4Olvw==
+   eJyNVAEOgjAMHInuMei3gK+gwEDF6HPtYhuPsm4mXAZd73Zr2dbKubWAk99+n305tydcANdELurUfh+LGgvhxaDHzUqj9rZP1GgJN9aIuBmeUohrBBo79tEQ3qA1Z9bXGAh31nryqHV0/SyfqBX5bfXbm/BCZs895GlfwomaM8+PnPMgTKATICb1jjoH4h/d9z3F0b3EWOCedQoyL94XQ0f2qn2PjKnaeseYri/2d1B5OR+WJ/1/Ct/ygedigBzsn9SrMXzocyW8HtaeQD/lo/b7PWleynvpztA1zd0rqXuihH9yJecDO4Olvw==
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBj8wAqIbahghj0QO1BolgUSW5sCc2yB2BGJr0WhWZpQtiUW+QRG0s10YKAsnHSQ2NjcRCwA
-+c0Miu0oMGcUjAJiAADCZgU/
+   eJxjYBj8wAqIbahghj0QO1BolgUSW5sCc2yB2BGJr0WhWZpQtiUW+QRG0s10YKAsnHSQ2NjcRCwA+c0Miu0oMGcUjAJiAADCZgU/
   </data>
  </layer>
  <layer name="Top" width="18" height="18">

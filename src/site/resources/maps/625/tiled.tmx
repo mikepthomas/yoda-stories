@@ -4,26 +4,17 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJyVk00OgkAMhccQOYscSUYdRdCtegQ3/qxNTDQcwHgIr+Y0trE8K4HFlwnz89rXlsvAuQswSZyb
-Jb/7fSCNMlIZWnQ2VVixJIcQ8cyC743Sr75XLI04OodNZJc046PGWsURCnV+iJwjx8gJ3mIuuo46
-37zlHfHg9cm5l8qb5HIz3l1hJcbsaR5ZKW+Bvy2tOvIafla9r3spa5Y262PlhVTsR/ohddY5WaD2
-vWW+umjVrCH1wb4H3is6+MqNniMFxJb4OefgIQ/0JvUSb3pOxIPnc3pH/4n8P+jNmm2Z/cB399Af
-3fd/OqJBsS0N8rA1dHXNsRc4J33I0n733x6nlkE=
+   eJyVk00OgkAMhccQOYscSUYdRdCtegQ3/qxNTDQcwHgIr+Y0trE8K4HFlwnz89rXlsvAuQswSZybJb/7fSCNMlIZWnQ2VVixJIcQ8cyC743Sr75XLI04OodNZJc046PGWsURCnV+iJwjx8gJ3mIuuo4637zlHfHg9cm5l8qb5HIz3l1hJcbsaR5ZKW+Bvy2tOvIafla9r3spa5Y262PlhVTsR/ohddY5WaD2vWW+umjVrCH1wb4H3is6+MqNniMFxJb4OefgIQ/0JvUSb3pOxIPnc3pH/4n8P+jNmm2Z/cB399Af3fd/OqJBsS0N8rA1dHXNsRc4J33I0n733x6nlkE=
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJy1lF0KwjAQhBdC7uhhWh+9gD+tIFUrvogXEH+wN3NCdiEsiaZGB4aQZOfLsg8h+p/mhmhpyhkL
-dgnLcVYFnBaZdSTnzjeJu5g61O05E/piiSZYt8w5ZfB64zMNfISvYNzgu/Vv6J4q7KcJrrAO8AP5
-AX5af65Z7zjCCjNuRjvuMdZXTJIJZ6L7zFHH82lGvJ1Sz5ywpzaD92leUlOPmLHorDI1W7KV2uco
-lvmWk1s/K/wnfqUX0VA3TA==
+   eJy1lF0KwjAQhBdC7uhhWh+9gD+tIFUrvogXEH+wN3NCdiEsiaZGB4aQZOfLsg8h+p/mhmhpyhkLdgnLcVYFnBaZdSTnzjeJu5g61O05E/piiSZYt8w5ZfB64zMNfISvYNzgu/Vv6J4q7KcJrrAO8AP5AX5af65Z7zjCCjNuRjvuMdZXTJIJZ6L7zFHH82lGvJ1Sz5ywpzaD92leUlOPmLHorDI1W7KV2ucolvmWk1s/K/wnfqUX0VA3TA==
   </data>
  </layer>
  <layer name="Top" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEGcwMDFnMWCRIACAz8oA4n0KzuoF6+4C4B4h70czZCORvAuLNFLoVBLZQwQwQWItkDrHh
-uIMVQu9ixS6fDTQjlwruKwGaUUYlfw5mgB7u5KYT9PBaB2SvB+INaHGciWQfsXGOnk5AeaUSyb5s
-LHmHkD+y0cyA+aEUiz9a0fyBz994AQuR6oYIAAAhMiAr
+   eJxjYMAEGcwMDFnMWCRIACAz8oA4n0KzuoF6+4C4B4h70czZCORvAuLNFLoVBLZQwQwQWItkDrHhuIMVQu9ixS6fDTQjlwruKwGaUUYlfw5mgB7u5KYT9PBaB2SvB+INaHGciWQfsXGOnk5AeaUSyb5sLHmHkD+y0cyA+aEUiz9a0fyBz994AQuR6oYIAAAhMiAr
   </data>
  </layer>
 </map>

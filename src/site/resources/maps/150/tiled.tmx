@@ -4,27 +4,17 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJzNU9EKgDAItMC/6j82WNtX1P+HMMGsoVhED4dz884TWZ0BqkIyoOtH+EJnw3/5GelMANB6lOfc
-OVnw6T4JHsWmenu9Wt6tevbKufbB3u+4RfjnXJ8tP1S34JkbmasIeHXkXO2BDmHH6/vq2IE1l3eX
-1r4iOh5Edehfv9HL+1dY4wDV1HKW
+   eJzNU9EKgDAItMC/6j82WNtX1P+HMMGsoVhED4dz884TWZ0BqkIyoOtH+EJnw3/5GelMANB6lOfcOVnw6T4JHsWmenu9Wt6tevbKufbB3u+4RfjnXJ8tP1S34JkbmasIeHXkXO2BDmHH6/vq2IE1l3eX1r4iOh5Edehfv9HL+1dY4wDV1HKW
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJytU1EOgjAMHcj40HgEUPiXaGIMxB8/TPwyxDt4hnEXvYZ/3sdz2EorZQzUxCZNH+t4bd+2ma/U
-DHwFvgSP6BvxmqIRHoNX4AvKIZ6Dp+BXrV6WjmqMa2hnT70Nc2gJ5KZes3ajNf6H972wr3qtdOyX
-PGgbXfsQT+LI2TyufmRd/ufu4EFdDxQN4Rx6KnSTM5Tfkc4So8XUD9ZMhX7OvgAnQTNDFjQztnS2
-9ENOybMFfKRzrgjPBU9EOBLnz99G9L4PuzoO9SN5ePY++4Yn9dt7P/FwXXwLBc2V6zZPRW/gEdYY
-49LSh/efLJ35zHGuCWg+prPMxH0qf5zLvndDc+Es/I4L3eXhPmS0dbbvvuznots1ZGQ9+94X2qln
-vVOP+jJ/8icOPy7j
+   eJytU1EOgjAMHcj40HgEUPiXaGIMxB8/TPwyxDt4hnEXvYZ/3sdz2EorZQzUxCZNH+t4bd+2ma/UDHwFvgSP6BvxmqIRHoNX4AvKIZ6Dp+BXrV6WjmqMa2hnT70Nc2gJ5KZes3ajNf6H972wr3qtdOyXPGgbXfsQT+LI2TyufmRd/ufu4EFdDxQN4Rx6KnSTM5Tfkc4So8XUD9ZMhX7OvgAnQTNDFjQztnS29ENOybMFfKRzrgjPBU9EOBLnz99G9L4PuzoO9SN5ePY++4Yn9dt7P/FwXXwLBc2V6zZPRW/gEdYY49LSh/efLJ35zHGuCWg+prPMxH0qf5zLvndDc+Es/I4L3eXhPmS0dbbvvuznots1ZGQ9+94X2qlnvVOP+jJ/8icOPy7j
   </data>
  </layer>
  <layer name="Top" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJwzZmWAgwImBgZjJD4MZDFBcA4ThM/DiFC/GVM5HKRB1Wcw4VGEBNJxqKvEoz+ACLOnsTAwsDMS
-5wZ0wIclPMgBhkBzPJggNCj8PNDcDeJzM+PWD1NvwIpKwwAPmv/SmLCzQQAUzrjMwQb8QPHPCMF+
-SGalQ/1jz4KpZylQfBkQLyfCfGT3oLsVBnKJiGdizCEGYPMXenyBAEgepkaXGSGGzT1BWPRjMxMZ
-wNI2sjno6TENSQ0hgC++0AHMP+g0unsoAfjMwRZe+MyhFgAApZEZVQ==
+   eJwzZmWAgwImBgZjJD4MZDFBcA4ThM/DiFC/GVM5HKRB1Wcw4VGEBNJxqKvEoz+ACLOnsTAwsDMS5wZ0wIclPMgBhkBzPJggNCj8PNDcDeJzM+PWD1NvwIpKwwAPmv/SmLCzQQAUzrjMwQb8QPHPCMF+SGalQ/1jz4KpZylQfBkQLyfCfGT3oLsVBnKJiGdizCEGYPMXenyBAEgepkaXGSGGzT1BWPRjMxMZwNI2sjno6TENSQ0hgC++0AHMP+g0unsoAfjMwRZe+MyhFgAApZEZVQ==
   </data>
  </layer>
 </map>

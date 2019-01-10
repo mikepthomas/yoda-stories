@@ -4,25 +4,17 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJytlM8OgjAMxkea8CxGfBI8cZ54ELwjJ4M74SvwGD6kW2xj6f6RaMIvYW2/r802WAqldqVSS5Gn
-StTZx4NyhzJeS7F9GfcJ+f6SJ+4b63I8/+TziPi4OJHSOgzu51SsdRSvEvvMtQZrJ6aVnMCfwWC8
-tZwhrOE5t+7Bn5Pi2nLF+lcg16HPBdeaaVqsO1oaSw3rOXpW34lZG9Tw91rUuzsr+3Kfm/DU4BOb
-n+IDfHw40mO2jPD9jqgvj8tvUPbT4rx43xH8c+R3ifS5nluYMz1zDAF96r/FcXv3BmOuck0=
+   eJytlM8OgjAMxkea8CxGfBI8cZ54ELwjJ4M74SvwGD6kW2xj6f6RaMIvYW2/r802WAqldqVSS5GnStTZx4NyhzJeS7F9GfcJ+f6SJ+4b63I8/+TziPi4OJHSOgzu51SsdRSvEvvMtQZrJ6aVnMCfwWC8tZwhrOE5t+7Bn5Pi2nLF+lcg16HPBdeaaVqsO1oaSw3rOXpW34lZG9Tw91rUuzsr+3Kfm/DU4BObn+IDfHw40mO2jPD9jqgvj8tvUPbT4rx43xH8c+R3ifS5nluYMz1zDAF96r/FcXv3BmOuck0=
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJytUVEKwjAMTVnZbTyFf/rlHXYCQVSwm1qZ9/F7h3PBlqbPrt3EByEhee+l2Yj+g5OK46w+/VX9
-zT0C56nC7DHWVoV8nfBljy7B4flAsUcqe01XmOc8luQS5+7uuiX6Teb7WNC2rjaiL/UeKY8UD7Gt
-iHYiluildlOFPute1TwdaiVwv3W8vSbqhW5dxxqvG0SP+b3bx7llrZ7e28D9l5FvIOSca+N9wQf7
-pTsl5N6cB/rM4UtY4OZ2Ihdx0OHdc97g/1PJ9xe8Aa7RTp4=
+   eJytUVEKwjAMTVnZbTyFf/rlHXYCQVSwm1qZ9/F7h3PBlqbPrt3EByEhee+l2Yj+g5OK46w+/VX9zT0C56nC7DHWVoV8nfBljy7B4flAsUcqe01XmOc8luQS5+7uuiX6Teb7WNC2rjaiL/UeKY8UD7GtiHYiluildlOFPute1TwdaiVwv3W8vSbqhW5dxxqvG0SP+b3bx7llrZ7e28D9l5FvIOSca+N9wQf7pTsl5N6cB/rM4UtY4OZ2Ihdx0OHdc97g/1PJ9xe8Aa7RTp4=
   </data>
  </layer>
  <layer name="Top" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJztTtEKgCAQM+xjtaxeLOrd36hv7QKla5hGFPTQYMjN23ZC/HgLc/GMf8nk5Hqu+nN7CCWF0MRK
-Hv2opzzb3BINsfO6k3GdZ4S/xuu1nw3zaLZnYF/BX9AtvT3jCP6NE3GI9HIdgffxTuw9y4jlpDpj
-cHD3lOh0mVxb7nffueGLWAEhwCp9
+   eJztTtEKgCAQM+xjtaxeLOrd36hv7QKla5hGFPTQYMjN23ZC/HgLc/GMf8nk5Hqu+nN7CCWF0MRKHv2opzzb3BINsfO6k3GdZ4S/xuu1nw3zaLZnYF/BX9AtvT3jCP6NE3GI9HIdgffxTuw9y4jlpDpjcHD3lOh0mVxb7nffueGLWAEhwCp9
   </data>
  </layer>
 </map>

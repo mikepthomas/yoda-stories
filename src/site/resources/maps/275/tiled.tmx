@@ -9,8 +9,7 @@
  </layer>
  <layer name="Middle" width="9" height="9">
   <data encoding="base64" compression="zlib">
-   eJx7w8DA8BaKNRkZGASBWIsRIfYeiD8AsS4LUJyZgUEbKKcDxLpALATFH6FqQMAIyNcHYgMgNmSE
-8EEApEYUyBaD8tGBMlBcBYglgFgShxpVoLgaI/XMQXYzMkB28yek8HkLlUfmfwZiABEfF2M=
+   eJx7w8DA8BaKNRkZGASBWIsRIfYeiD8AsS4LUJyZgUEbKKcDxLpALATFH6FqQMAIyNcHYgMgNmSE8EEApEYUyBaD8tGBMlBcBYglgFgShxpVoLgaI/XMQXYzMkB28yek8HkLlUfmfwZiABEfF2M=
   </data>
  </layer>
  <layer name="Top" width="9" height="9">

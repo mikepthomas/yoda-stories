@@ -4,25 +4,17 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJyNVEEOwjAMK5rUtyBAfIjBLtu92wvQLvCAPZhGNJIxbuFgqU1SO2m9bbsQtgZO8XN/jPXavgvh
-mnHr3vtDoxbr8YxhKOuJ4nvBZxxjxqVA6Vh8qmh5D8yBNSmvZ8g7kHMU+TVjET1xXQtzhQN74hlZ
-g+fht0x/9oG9sA/8HZ4FmMOY99nyhWs+yrlF9IKzKZ+Zh/rum6umpe5HeYN9do7aE8rPrXu90zuz
-jpoR865n36vyq/IO1qzCa0rTdDA+AH/N76hpa9ZBLyHHr/+HerMk5lCer9W+AH7mmco=
+   eJyNVEEOwjAMK5rUtyBAfIjBLtu92wvQLvCAPZhGNJIxbuFgqU1SO2m9bbsQtgZO8XN/jPXavgvhmnHr3vtDoxbr8YxhKOuJ4nvBZxxjxqVA6Vh8qmh5D8yBNSmvZ8g7kHMU+TVjET1xXQtzhQN74hlZg+fht0x/9oG9sA/8HZ4FmMOY99nyhWs+yrlF9IKzKZ+Zh/rum6umpe5HeYN9do7aE8rPrXu90zuzjpoR865n36vyq/IO1qzCa0rTdDA+AH/N76hpa9ZBLyHHr/+HerMk5lCer9W+AH7mmco=
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJy9U0EKgDAMUwr+xl/5DOfFJ7gHq2ghhnbZycBA0jTtujoM/2Ke+nTL+BzHblqL+hvrlVMsjrGn
-azxnC+phHfZkPvPgntRpYbW4JnJ8H5z/Dtxxfdc3t9r3qD54BpEXcsoPNZwXzSfbjWyOyKv7Ze9V
-Xv4Gz1z1ovY121mMu6ZY375m8B3hfJ8p18zqZDH0cm2E1n/H79vSqlyFExUtQuQ=
+   eJy9U0EKgDAMUwr+xl/5DOfFJ7gHq2ghhnbZycBA0jTtujoM/2Ke+nTL+BzHblqL+hvrlVMsjrGnazxnC+phHfZkPvPgntRpYbW4JnJ8H5z/Dtxxfdc3t9r3qD54BpEXcsoPNZwXzSfbjWyOyKv7Ze9VXv4Gz1z1ovY121mMu6ZY375m8B3hfJ8p18zqZDH0cm2E1n/H79vSqlyFExUtQuQ=
   </data>
  </layer>
  <layer name="Top" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJy9UssKAjEMXBDxF/zE1e5uL3bRo+BNYf0yv8kUOzAMSY8GBkqTTCaPYfDtsQscHRst52Q4U+7x
-EHMiXnMu9r4asvx7nJVjMUyGm2GV+NR8OagFDT0O1jQRmHMR3+xwoP9EXG/DJrnQUQIt6D9Jfn2/
-GraODrXU4p4tj+fu/Xm3gT3MTp7OCFy8R9YyST38Adxz1B/vK1N9zPXe/EuHR2/D2+9n/6tV6Ga9
-ey4U4+0XMx2lXqQLveh91JlWLtbkxfU4oAX70d3qnL0+OD+K7Zl3G/+wL8GfTrc=
+   eJy9UssKAjEMXBDxF/zE1e5uL3bRo+BNYf0yv8kUOzAMSY8GBkqTTCaPYfDtsQscHRst52Q4U+7xEHMiXnMu9r4asvx7nJVjMUyGm2GV+NR8OagFDT0O1jQRmHMR3+xwoP9EXG/DJrnQUQIt6D9Jfn2/GraODrXU4p4tj+fu/Xm3gT3MTp7OCFy8R9YyST38Adxz1B/vK1N9zPXe/EuHR2/D2+9n/6tV6Ga9ey4U4+0XMx2lXqQLveh91JlWLtbkxfU4oAX70d3qnL0+OD+K7Zl3G/+wL8GfTrc=
   </data>
  </layer>
 </map>

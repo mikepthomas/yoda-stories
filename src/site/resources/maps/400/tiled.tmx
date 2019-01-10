@@ -4,25 +4,17 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJydVNsOwiAM7YLhY5h/JOqDZs9e3mBP00/wg20zSGrTsmCykyaFnp3SA6MH+AwA0QEcC05uzfWC
-OK6IQ0Fr797ba9Pul6NHz8h4z1iHARaMT8QDEXD9hcn3YEfJeXMrB9Vv1fKo8fRyUJyNXns4ND0V
-PRxcy+j/0zNvzF+ryQVyTlF4NhTeZPy3NXPLs1pNapwxfqpntZqs5EkneeVe/KJpSuxMstFb7an6
-ntcmhTOWc0yCt/LInmiG2l66dxdD99Loybov8s2oeek/jtBYa+ELDJamOw==
+   eJydVNsOwiAM7YLhY5h/JOqDZs9e3mBP00/wg20zSGrTsmCykyaFnp3SA6MH+AwA0QEcC05uzfWCOK6IQ0Fr797ba9Pul6NHz8h4z1iHARaMT8QDEXD9hcn3YEfJeXMrB9Vv1fKo8fRyUJyNXns4ND0VPRxcy+j/0zNvzF+ryQVyTlF4NhTeZPy3NXPLs1pNapwxfqpntZqs5EkneeVe/KJpSuxMstFb7an6ntcmhTOWc0yCt/LInmiG2l66dxdD99Loybov8s2oeek/jtBYa+ELDJamOw==
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJy1VFsKAjEMTKn0Nt7GB/57A5FV2Id1Ua9tqw0dQ7KLoAOBJelMJ22zRL9H54mGFL2vueOifh/K
-9+jJRNbQdBiZ2ziiU4mzq7qMtmhI/sN9cgdXa5eiJXVYA3mSi9infG/UGoO3CkTrFJtQc9cvNTK2
-4b3/Lsx76SCf102F5SXfhdTR9GQ/d+VeO1jLGsyJUMv93Aw/jAh11pDnpt33lCdcj37wjLU3x28z
-wnlILfT56lFo8NtDvzhX3Bt6aY0Zi2V/qadhNObIAs7LMuj5OUz9G/6JJ8RTON8=
+   eJy1VFsKAjEMTKn0Nt7GB/57A5FV2Id1Ua9tqw0dQ7KLoAOBJelMJ22zRL9H54mGFL2vueOifh/K9+jJRNbQdBiZ2ziiU4mzq7qMtmhI/sN9cgdXa5eiJXVYA3mSi9infG/UGoO3CkTrFJtQc9cvNTK24b3/Lsx76SCf102F5SXfhdTR9GQ/d+VeO1jLGsyJUMv93Aw/jAh11pDnpt33lCdcj37wjLU3x28zwnlILfT56lFo8NtDvzhX3Bt6aY0Zi2V/qadhNObIAs7LMuj5OUz9G/6JJ8RTON8=
   </data>
  </layer>
  <layer name="Top" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYICADGYGhkwozmJmgIMSFgS7CMpehiSPDEBm5AFxJRCXA3EZFnXY9BaxoPKzoWZg008KKCHB
-jCg2BoZoNvLsgelFpwkBdD3kuAeXvRFsqPIbgeGwCYg3I4UHLC6wmYGNBoF1QD2tQLwBS7gSawYx
-gNhwycCSZrGFDyFxXGkOljZxxQe6O4lJcyC1JSzYxYnxE7GA1HyUgcNOUvIRKE2Ron6wAQADDC2+
+   eJxjYICADGYGhkwozmJmgIMSFgS7CMpehiSPDEBm5AFxJRCXA3EZFnXY9BaxoPKzoWZg008KKCHBjCg2BoZoNvLsgelFpwkBdD3kuAeXvRFsqPIbgeGwCYg3I4UHLC6wmYGNBoF1QD2tQLwBS7gSawYxgNhwycCSZrGFDyFxXGkOljZxxQe6O4lJcyC1JSzYxYnxE7GA1HyUgcNOUvIRKE2Ron6wAQADDC2+
   </data>
  </layer>
 </map>

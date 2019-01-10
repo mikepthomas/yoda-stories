@@ -4,25 +4,17 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJy9U9sNwjAMNLKUWXiJiUJRN2jLH2KMjsGQ2CIR7uEkRUh8nKzY5+RsXeYN0QyITHQWdPzObcMn
-r4WL9Eugnv261hRr7lJe1uPpO4XXeQc6o+ENEkfBxEt9OT+m/OToVW6ew9tFnkXfOjh122N1o74r
-aCxhAI7V9ys6uOeR4v4LD1h93j5Ku/kXWppKuKV4b/BaMx2Dv2uLyGWvIPoKD71R80qtr6RXc9Yb
-6E3sw3r2fc3z+q9tH/7zFpS/xmdPosemiw==
+   eJy9U9sNwjAMNLKUWXiJiUJRN2jLH2KMjsGQ2CIR7uEkRUh8nKzY5+RsXeYN0QyITHQWdPzObcMnr4WL9Eugnv261hRr7lJe1uPpO4XXeQc6o+ENEkfBxEt9OT+m/OToVW6ew9tFnkXfOjh122N1o74raCxhAI7V9ys6uOeR4v4LD1h93j5Ku/kXWppKuKV4b/BaMx2Dv2uLyGWvIPoKD71R80qtr6RXc9Yb6E3sw3r2fc3z+q9tH/7zFpS/xmdPosemiw==
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYKAdSGFkYKhlhtDoACQOw+igGU2sBqquDotamBkgO7DJowM3Nvzum8ZO2Ax0AHJfPZIbS1kY
-GAJwuKUGhz9wAVzmEAu8gfoDgdgPag562MIATLwGyQ8w/SDgxYypFgZgavEBcv1RDoybCiCuZIS4
-xYtMc2qB+tuAOAQpLJABLj9gC69QItIsMYCSuIXFayA0TLDlMVwAlp9g6QLmd1xpEz1tIJtTT0R6
-JjXNDyQAAIv2ISA=
+   eJxjYKAdSGFkYKhlhtDoACQOw+igGU2sBqquDotamBkgO7DJowM3Nvzum8ZO2Ax0AHJfPZIbS1kYGAJwuKUGhz9wAVzmEAu8gfoDgdgPag562MIATLwGyQ8w/SDgxYypFgZgavEBcv1RDoybCiCuZIS4xYtMc2qB+tuAOAQpLJABLj9gC69QItIsMYCSuIXFayA0TLDlMVwAlp9g6QLmd1xpEz1tIJtTT0R6JjXNDyQAAIv2ISA=
   </data>
  </layer>
  <layer name="Top" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJzVU9EKgCAMHBT0C32iFvVkRY9BH96CBro8DSGigz1sO+U2TyKivaIAhnPL0YG6Bf22CXPH/Ylj
-Vrye8/XqbZF+DqJj5BgyZ01Ep69v8TS6Gt/jCnSe0LvV9ZQ+n6t3K5C6ezDD7X0S3K+A9oV4aAa0
-r1LeG0Bvj7yh/6XMrr0p57Q3BOL7nJ9LPf9nHAprHTo=
+   eJzVU9EKgCAMHBT0C32iFvVkRY9BH96CBro8DSGigz1sO+U2TyKivaIAhnPL0YG6Bf22CXPH/YljVrye8/XqbZF+DqJj5BgyZ01Ep69v8TS6Gt/jCnSe0LvV9ZQ+n6t3K5C6ezDD7X0S3K+A9oV4aAa0r1LeG0Bvj7yh/6XMrr0p57Q3BOL7nJ9LPf9nHAprHTo=
   </data>
  </layer>
 </map>

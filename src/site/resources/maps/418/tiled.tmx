@@ -4,26 +4,17 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJytk10OwiAMgKH1Yp5CEne/xavoi5qdYmr0AHuwBBpxdLQzPnxhYeyj6493zu3gP3hyTfDNGZ27
-EFfU37XcI9roFU+fueHneWmv5Xjl+x6C5wB2jxRHzMWR9k+YVs7XWo8lF1y3iOTxWJ+TPHtiu0mr
-Fk95NmRKD8PfACYmwcMEqP8r0s3qLsXTQTtPUv+AsVd+qZm03/Lc6fzT0Ieah+8eirnkPlzyBKhr
-yDHNZ1OaFW3mpW/W9rm1ppE39Ievdw==
+   eJytk10OwiAMgKH1Yp5CEne/xavoi5qdYmr0AHuwBBpxdLQzPnxhYeyj6493zu3gP3hyTfDNGZ27EFfU37XcI9roFU+fueHneWmv5Xjl+x6C5wB2jxRHzMWR9k+YVs7XWo8lF1y3iOTxWJ+TPHtiu0mrFk95NmRKD8PfACYmwcMEqP8r0s3qLsXTQTtPUv+AsVd+qZm03/Lc6fzT0Ieah+8eirnkPlzyBKhryDHNZ1OaFW3mpW/W9rm1ppE39Ievdw==
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJytU0sOgjAQLQVZ4AHcKAkmegGNUZfuvIdnYOVJ9Aa9AkczgJ0wEx6ljYQ4yUt/09c30xmjlTJ/
-wsbiYHHksbR4RNNRM8+W7821FnhOi36f9LlWWSzhrSzq1jQizzrufbYOT2zPGt2DDNcGeMSeesxD
-730gZ2Sh/FRwT3hEB/moWAWt1cM/KxnCI+eihWwHfjn75U5st2SopwUtkuOCz8hX5kUgRzKX2H08
-OK8hprP994vFnTXvHU0J5+fF9SGxoY/UD9aQT9OvPNOdPLW60jGP+E3lWaUdQjxmQh1iPoQDedy+
-JKu1v9/fkBvivXp6zBcLgt6mf60Cd2g/456UfvXxNDPgcnwBzK5ytQ==
+   eJytU0sOgjAQLQVZ4AHcKAkmegGNUZfuvIdnYOVJ9Aa9AkczgJ0wEx6ljYQ4yUt/09c30xmjlTJ/wsbiYHHksbR4RNNRM8+W7821FnhOi36f9LlWWSzhrSzq1jQizzrufbYOT2zPGt2DDNcGeMSeesxD730gZ2Sh/FRwT3hEB/moWAWt1cM/KxnCI+eihWwHfjn75U5st2SopwUtkuOCz8hX5kUgRzKX2H08OK8hprP994vFnTXvHU0J5+fF9SGxoY/UD9aQT9OvPNOdPLW60jGP+E3lWaUdQjxmQh1iPoQDedy+JKu1v9/fkBvivXp6zBcLgt6mf60Cd2g/456UfvXxNDPgcnwBzK5ytQ==
   </data>
  </layer>
  <layer name="Top" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYKAdMGQlTx8fUJ8kG4JvQKY5pkB9U1kodw86IOSeByz45Yk1h1hArjn2UHc6AGl+VsLmgNQ4
-QPUYAdkmONST4h5qmQMC9ljC3ZmFcLzD1BSjqQOln2ksiDREjHtAaoqwqJNiQ6RpSswRZoNgYswB
-pUN7FsxwWQrUZ8wKCXsQXkqldEiv/IUL2LNgx6QAADFREIc=
+   eJxjYKAdMGQlTx8fUJ8kG4JvQKY5pkB9U1kodw86IOSeByz45Yk1h1hArjn2UHc6AGl+VsLmgNQ4QPUYAdkmONST4h5qmQMC9ljC3ZmFcLzD1BSjqQOln2ksiDREjHtAaoqwqJNiQ6RpSswRZoNgYswBpUN7FsxwWQrUZ8wKCXsQXkqldEiv/IUL2LNgx6QAADFREIc=
   </data>
  </layer>
 </map>

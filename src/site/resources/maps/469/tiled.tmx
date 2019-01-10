@@ -4,26 +4,17 @@
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
  <layer name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJytkksOgjAQhmuacBfRGwGC4GNbceuK6A1Y+birM6ETfsdp3Jjwh7bT+TqvceFc6Z2rSBvSSPs8
-m/5yXin7MtrxLqv18xr9d6QCtAeW1ir75JSGfxHtwqoSvEBnA6mPDLQhB/cSG+YYgKFjoM/k8Lrz
-c05SK8yNffnPMZ5AhYq1T+TG/ux7jn76HjIHwy4c9C1VLQPwUwwt6Zn0BucnJBjr7PtManUhPf2k
-SvW8NFiYg8Ryj/srvXOLbzHnSNr6ea/fl3moSQ3pACzRw8+9lvesPHAeamC9/MSQWCQn7m9n5KfP
-2ujbRDFDzxrWXPdcVEMttAblIzNt9dPqpXU3de8fyn+wU/Y3sTSdDA==
+   eJytkksOgjAQhmuacBfRGwGC4GNbceuK6A1Y+birM6ETfsdp3Jjwh7bT+TqvceFc6Z2rSBvSSPs8m/5yXin7MtrxLqv18xr9d6QCtAeW1ir75JSGfxHtwqoSvEBnA6mPDLQhB/cSG+YYgKFjoM/k8Lrzc05SK8yNffnPMZ5AhYq1T+TG/ux7jn76HjIHwy4c9C1VLQPwUwwt6Zn0BucnJBjr7PtManUhPf2kSvW8NFiYg8Ryj/srvXOLbzHnSNr6ea/fl3moSQ3pACzRw8+9lvesPHAeamC9/MSQWCQn7m9n5KfP2ujbRDFDzxrWXPdcVEMttAblIzNt9dPqpXU3de8fyn+wU/Y3sTSdDA==
   </data>
  </layer>
  <layer name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYKAPqGVGYGTQzIxbfR0zKh8bRgalLKjm1RBpBi7zCPmDXHNgauqZMf2JzQ50eZjfcMnB5OsJ
-mEEKQA9LYkAKIyrGBrDFPygeYWAGUH4OEDexAdUC8Uwy/QGyfxFQrxg7A4M4EC9kRjWrhgRzYWZN
-B+LFzKh+wxYvMDFcZuEKH3Q9hOIcG8AV/8TEJyxuyIl7SkAbkXYhpxNqAQDUJzFx
+   eJxjYKAPqGVGYGTQzIxbfR0zKh8bRgalLKjm1RBpBi7zCPmDXHNgauqZMf2JzQ50eZjfcMnB5OsJmEEKQA9LYkAKIyrGBrDFPygeYWAGUH4OEDexAdUC8Uwy/QGyfxFQrxg7A4M4EC9kRjWrhgRzYWZNB+LFzKh+wxYvMDFcZuEKH3Q9hOIcG8AV/8TEJyxuyIl7SkAbkXYhpxNqAQDUJzFx
   </data>
  </layer>
  <layer name="Top" width="18" height="18">
   <data encoding="base64" compression="zlib">
-   eJzFUlsOwjAMi1QOu7ENfkq3HYCr7BPxuCCJ1EmZlYYiEFjyT1K7aWMioiYQtcw9U2Ott0Z/gbOC
-jmszM4Wt/sDsFY/gFXdbvwgeqEcva3Z8h/aQGU+KkzMbeoh2zLoU/DuS4RMNLfbHPFPJ4x3EL3hY
-sPYve/w1mkJuvTxYiPnPta5z8uDNIzkYIM8T1F55zIWc1Oxz3U3N2Rv378zHhxm5sP7MvFb4/CMn
-tXgCNdEwww==
+   eJzFUlsOwjAMi1QOu7ENfkq3HYCr7BPxuCCJ1EmZlYYiEFjyT1K7aWMioiYQtcw9U2Ott0Z/gbOCjmszM4Wt/sDsFY/gFXdbvwgeqEcva3Z8h/aQGU+KkzMbeoh2zLoU/DuS4RMNLfbHPFPJ4x3EL3hYsPYve/w1mkJuvTxYiPnPta5z8uDNIzkYIM8T1F55zIWc1Oxz3U3N2Rv378zHhxm5sP7MvFb4/CMntXgCNdEwww==
   </data>
  </layer>
 </map>
