@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="18" height="18" tilewidth="32" tileheight="32">
+<map version="1.2" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="18" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="1">
  <tileset firstgid="1" source="../../tiles/Yoda Stories.tsx"/>
- <layer name="Bottom" width="18" height="18">
+ <layer id="1" name="Bottom" width="18" height="18">
   <data encoding="base64" compression="zlib">
    eJy9k8EKgkAQhncRfBjrcTpFZSXW1TwWdLFDZmqZ0Os2mzM4DesSBIH/rsrO58w/Y6uVav+oM+iC9zNPqYVnPzfy3fEFqMR3a2DEoLmDJxk30J3lYhRi7BT2SHAyoSOoAsH1Vs1yS7yOtfyCY2I3sMS65xhujZwdxqe4B+DLHvaDhfOApdHdXjKPjM/ESr1PH3KMp9xO+G3uL/dnBRqL3lSMw1m1owe2PpGfkiP7REpEPTbOxO9qyhgrR9mYfO4KkY/0iXo/lB8X9aWxsIhH3rs4FdZg5jcSXske0r8hZ5Bq4znJOiUntHACv2eVmNsTmVfkbnU/j+b8UM+49wXG0/zxZzrj4vyiFxAgp5k=
   </data>
  </layer>
- <layer name="Middle" width="18" height="18">
+ <layer id="2" name="Middle" width="18" height="18">
   <data encoding="base64" compression="zlib">
    eJxjYKAeaGWkomFAUA40rwKIK6HmtuMxPwWLHEx/PRC3AXEDkln4zEE3qxaNbwXE5kjYBs2MGmagHmbs5lghqbcA4llIarSxuAdmVh0zqjhIryUSm1wAM6cZ6A5bIO1Ipjm6QOzAAPEbyCx8bqrB4h9k4ATEdkSYgw/MYUSEDwgg+w1bHGMDIDVZTBB/weIZOZxmsTMwzGYnbM48oJr5SOoc0Mwyg2Jywh7ZLBCezEp+mIHMQk7X9mSagw8QivuBBgBLQCBc
   </data>
  </layer>
- <layer name="Top" width="18" height="18">
+ <layer id="3" name="Top" width="18" height="18">
   <data encoding="base64" compression="zlib">
    eJxjYBg4kMHMwJDFTLk52UAz8oE4k0LzSoB6K4A4B4hzCZgzk5GwWaVAXEYF/1EKqBXOJXTwz2wC4UoqiGaDYGQwgx0Yf+yE9c4BqpkLxFlMuPFEVuq4cxKaOeTGGbpfs4lIy8QAesT9YAAAvnETOQ==
   </data>

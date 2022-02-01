@@ -18,19 +18,27 @@ public class TileMapReader extends BinaryReader {
 
     public Map readObject(int width, int height) throws IOException {
         Map map = new Map(width, height);
+        map.setInfinite(0);
+        map.setTiledversion("1.4.2");
         map.addTileset(DataParser.TILE_SET);
 
         TileLayer bottomLayer = new TileLayer(map, width, height);
+        bottomLayer.setId(1);
         bottomLayer.setName("Bottom");
         map.addLayer(bottomLayer);
 
         TileLayer middleLayer = new TileLayer(map, width, height);
+        middleLayer.setId(2);
         middleLayer.setName("Middle");
         map.addLayer(middleLayer);
 
         TileLayer topLayer = new TileLayer(map, width, height);
+        topLayer.setId(3);
         topLayer.setName("Top");
         map.addLayer(topLayer);
+        
+        map.setNextlayerid(4);
+        map.setNextobjectid(1);
 
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {

@@ -1,40 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset name="Yoda Stories" tilewidth="32" tileheight="32" tilecount="2123" columns="0">
- <terraintypes>
-  <terrain name="Cracked Desert" tile="368"/>
-  <terrain name="Desert" tile="0"/>
-  <terrain name="Grass" tile="403"/>
-  <terrain name="Snow" tile="648"/>
-  <terrain name="Swamp" tile="918"/>
-  <terrain name="Water" tile="386"/>
-  <terrain name="Ice" tile="1008"/>
-  <terrain name="Mud" tile="1134"/>
- </terraintypes>
- <tile id="0" terrain="1,1,1,1">
+<tileset firstgid="1" name="Yoda Stories" tilewidth="32" tileheight="32" tilecount="2123" columns="0">
+ <tile id="0">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="0.png"/>
  </tile>
- <tile id="1" type="Door" terrain="1,1,1,1">
+ <tile id="1" type="Door">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1.png"/>
  </tile>
- <tile id="2" terrain="1,1,1,1" probability="0.1">
+ <tile id="2">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="2.png"/>
  </tile>
- <tile id="3" terrain="1,1,1,1" probability="0.1">
+ <tile id="3">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="3.png"/>
  </tile>
- <tile id="4" terrain="1,1,1,1" probability="0.1">
+ <tile id="4">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
@@ -69,9 +59,6 @@
    <property name="Collidable" type="bool" value="true"/>
   </properties>
   <image width="32" height="32" source="9.png"/>
-  <objectgroup draworder="index">
-   <object id="1" type="Collidable" x="0" y="0" width="32" height="32"/>
-  </objectgroup>
  </tile>
  <tile id="10">
   <properties>
@@ -2201,25 +2188,25 @@
   </properties>
   <image width="32" height="32" source="363.png"/>
  </tile>
- <tile id="364" terrain="1,0,0,0">
+ <tile id="364">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="364.png"/>
  </tile>
- <tile id="365" terrain="1,1,0,0">
+ <tile id="365">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="365.png"/>
  </tile>
- <tile id="366" terrain="0,1,0,0">
+ <tile id="366">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="366.png"/>
  </tile>
- <tile id="367" terrain="1,0,1,0">
+ <tile id="367">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
@@ -2231,25 +2218,25 @@
   </properties>
   <image width="32" height="32" source="368.png"/>
  </tile>
- <tile id="369" terrain="0,1,0,1">
+ <tile id="369">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="369.png"/>
  </tile>
- <tile id="370" terrain="0,0,1,0">
+ <tile id="370">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="370.png"/>
  </tile>
- <tile id="371" terrain="0,0,1,1">
+ <tile id="371">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="371.png"/>
  </tile>
- <tile id="372" terrain="0,0,0,1">
+ <tile id="372">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
@@ -2261,85 +2248,85 @@
   </properties>
   <image width="32" height="32" source="373.png"/>
  </tile>
- <tile id="374" terrain="2,2,2,5">
+ <tile id="374">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="374.png"/>
  </tile>
- <tile id="375" terrain="2,2,5,5">
+ <tile id="375">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="375.png"/>
  </tile>
- <tile id="376" terrain="2,2,5,2">
+ <tile id="376">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="376.png"/>
  </tile>
- <tile id="377" terrain="2,5,2,2">
+ <tile id="377">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="377.png"/>
  </tile>
- <tile id="378" terrain="5,5,2,2">
+ <tile id="378">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="378.png"/>
  </tile>
- <tile id="379" terrain="5,2,2,2">
+ <tile id="379">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="379.png"/>
  </tile>
- <tile id="380" terrain="2,5,2,5">
+ <tile id="380">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="380.png"/>
  </tile>
- <tile id="381" terrain="5,2,5,2">
+ <tile id="381">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="381.png"/>
  </tile>
- <tile id="382" terrain="2,5,5,5">
+ <tile id="382">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="382.png"/>
  </tile>
- <tile id="383" terrain="5,2,5,5">
+ <tile id="383">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="383.png"/>
  </tile>
- <tile id="384" terrain="5,5,2,5">
+ <tile id="384">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="384.png"/>
  </tile>
- <tile id="385" terrain="5,5,5,2">
+ <tile id="385">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="385.png"/>
  </tile>
- <tile id="386" terrain="5,5,5,5">
+ <tile id="386">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="386.png"/>
  </tile>
- <tile id="387" terrain="5,5,5,5">
+ <tile id="387">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
@@ -2363,79 +2350,79 @@
   </properties>
   <image width="32" height="32" source="390.png"/>
  </tile>
- <tile id="391" terrain="2,2,2,1">
+ <tile id="391">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="391.png"/>
  </tile>
- <tile id="392" terrain="2,2,1,1">
+ <tile id="392">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="392.png"/>
  </tile>
- <tile id="393" terrain="2,2,1,2">
+ <tile id="393">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="393.png"/>
  </tile>
- <tile id="394" terrain="2,1,2,2">
+ <tile id="394">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="394.png"/>
  </tile>
- <tile id="395" terrain="1,1,2,2">
+ <tile id="395">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="395.png"/>
  </tile>
- <tile id="396" terrain="1,2,2,2">
+ <tile id="396">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="396.png"/>
  </tile>
- <tile id="397" terrain="2,1,2,1">
+ <tile id="397">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="397.png"/>
  </tile>
- <tile id="398" terrain="1,2,1,2">
+ <tile id="398">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="398.png"/>
  </tile>
- <tile id="399" terrain="2,1,1,1">
+ <tile id="399">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="399.png"/>
  </tile>
- <tile id="400" terrain="1,2,1,1">
+ <tile id="400">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="400.png"/>
  </tile>
- <tile id="401" terrain="1,1,2,1">
+ <tile id="401">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="401.png"/>
  </tile>
- <tile id="402" terrain="1,1,1,2">
+ <tile id="402">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="402.png"/>
  </tile>
- <tile id="403" terrain="2,2,2,2">
+ <tile id="403">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
@@ -4008,13 +3995,13 @@
   </properties>
   <image width="32" height="32" source="647.png"/>
  </tile>
- <tile id="648" terrain="3,3,3,3">
+ <tile id="648">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="648.png"/>
  </tile>
- <tile id="649" type="Door" terrain="3,3,3,3">
+ <tile id="649" type="Door">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
@@ -5647,79 +5634,79 @@
   </properties>
   <image width="32" height="32" source="917.png"/>
  </tile>
- <tile id="918" terrain="4,4,4,">
+ <tile id="918">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="918.png"/>
  </tile>
- <tile id="919" terrain="2,2,2,4">
+ <tile id="919">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="919.png"/>
  </tile>
- <tile id="920" terrain="2,2,4,2">
+ <tile id="920">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="920.png"/>
  </tile>
- <tile id="921" terrain="2,4,2,2">
+ <tile id="921">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="921.png"/>
  </tile>
- <tile id="922" terrain="4,2,2,2">
+ <tile id="922">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="922.png"/>
  </tile>
- <tile id="923" terrain="2,4,4,4">
+ <tile id="923">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="923.png"/>
  </tile>
- <tile id="924" terrain="4,4,2,2">
+ <tile id="924">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="924.png"/>
  </tile>
- <tile id="925" terrain="2,4,2,4">
+ <tile id="925">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="925.png"/>
  </tile>
- <tile id="926" terrain="4,2,4,2">
+ <tile id="926">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="926.png"/>
  </tile>
- <tile id="927" terrain="2,4,4,4">
+ <tile id="927">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="927.png"/>
  </tile>
- <tile id="928" terrain="4,2,4,4">
+ <tile id="928">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="928.png"/>
  </tile>
- <tile id="929" terrain="4,4,2,4">
+ <tile id="929">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="929.png"/>
  </tile>
- <tile id="930" terrain="4,4,4,2">
+ <tile id="930">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
@@ -6145,7 +6132,7 @@
   </properties>
   <image width="32" height="32" source="1000.png"/>
  </tile>
- <tile id="1001" terrain="6,6,,">
+ <tile id="1001">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
@@ -6193,73 +6180,73 @@
   </properties>
   <image width="32" height="32" source="1008.png"/>
  </tile>
- <tile id="1009" terrain="3,3,6,6">
+ <tile id="1009">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1009.png"/>
  </tile>
- <tile id="1010" terrain="3,6,3,6">
+ <tile id="1010">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1010.png"/>
  </tile>
- <tile id="1011" terrain="6,3,6,3">
+ <tile id="1011">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1011.png"/>
  </tile>
- <tile id="1012" terrain="6,6,3,3">
+ <tile id="1012">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1012.png"/>
  </tile>
- <tile id="1013" terrain="3,3,3,6">
+ <tile id="1013">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1013.png"/>
  </tile>
- <tile id="1014" terrain="3,3,6,3">
+ <tile id="1014">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1014.png"/>
  </tile>
- <tile id="1015" terrain="3,6,3,3">
+ <tile id="1015">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1015.png"/>
  </tile>
- <tile id="1016" terrain="6,3,3,3">
+ <tile id="1016">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1016.png"/>
  </tile>
- <tile id="1017" terrain="3,6,6,6">
+ <tile id="1017">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1017.png"/>
  </tile>
- <tile id="1018" terrain="6,3,6,6">
+ <tile id="1018">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1018.png"/>
  </tile>
- <tile id="1019" terrain="6,6,3,6">
+ <tile id="1019">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1019.png"/>
  </tile>
- <tile id="1020" terrain=",,,3">
+ <tile id="1020">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
@@ -6894,67 +6881,67 @@
   </properties>
   <image width="32" height="32" source="1122.png"/>
  </tile>
- <tile id="1123" terrain="2,2,7,7">
+ <tile id="1123">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1123.png"/>
  </tile>
- <tile id="1124" terrain="7,7,2,2">
+ <tile id="1124">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1124.png"/>
  </tile>
- <tile id="1125" terrain="2,7,2,7">
+ <tile id="1125">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1125.png"/>
  </tile>
- <tile id="1126" terrain="7,2,7,2">
+ <tile id="1126">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1126.png"/>
  </tile>
- <tile id="1127" terrain="2,2,2,7">
+ <tile id="1127">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1127.png"/>
  </tile>
- <tile id="1128" terrain="2,2,7,2">
+ <tile id="1128">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1128.png"/>
  </tile>
- <tile id="1129" terrain="2,7,2,2">
+ <tile id="1129">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1129.png"/>
  </tile>
- <tile id="1130" terrain="7,2,2,2">
+ <tile id="1130">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1130.png"/>
  </tile>
- <tile id="1131" terrain="7,2,7,7">
+ <tile id="1131">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1131.png"/>
  </tile>
- <tile id="1132" terrain="7,7,2,7">
+ <tile id="1132">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
   <image width="32" height="32" source="1132.png"/>
  </tile>
- <tile id="1133" terrain="7,7,7,2">
+ <tile id="1133">
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
