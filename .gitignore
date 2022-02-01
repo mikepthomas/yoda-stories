@@ -1,1 +1,14 @@
 target
+src/main/resources/bitmaps
+src/main/resources/Install
+src/main/resources/sfx
+AUTORUN.INF
+DeIsL1.isu
+Making Magic.pif
+MSVCRT40.DLL
+setup.exe
+Uninstall Yoda Stories.lnk
+wavemix.ini
+wavmix32.dll
+Yodaplay.exe
+Yodesk.*

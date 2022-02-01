@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package info.mikethomas.yodastories.zone.map;
 
 import info.mikethomas.yodastories.parser.BinaryReader;
@@ -15,10 +10,6 @@ import org.mapeditor.core.Map;
 import org.mapeditor.core.Tile;
 import org.mapeditor.core.TileLayer;
 
-/**
- *
- * @author Mike
- */
 public class TileMapReader extends BinaryReader {
 
     public TileMapReader(InputStream in) {

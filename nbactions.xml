@@ -43,4 +43,12 @@
                 <exec.executable>java</exec.executable>
             </properties>
         </action>
+        <action>
+            <actionName>CUSTOM-Generate Site</actionName>
+            <displayName>Generate Site</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>site</goal>
+            </goals>
+        </action>
     </actions>

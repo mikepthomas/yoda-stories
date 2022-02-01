@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package info.mikethomas.yodastories.tile;
 
 import info.mikethomas.yodastories.parser.BinaryReader;
@@ -21,10 +16,6 @@ import java.util.logging.Logger;
 import org.mapeditor.core.Properties;
 import org.mapeditor.core.Tile;
 
-/**
- *
- * @author Mike
- */
 public class TilesReader extends BinaryReader {
 
     public static final int TILE_HEIGHT = 32;
@@ -69,6 +60,7 @@ public class TilesReader extends BinaryReader {
             Properties properties = tile.getProperties();
             properties.setProperty("Collidable", String.valueOf(flags[0]));
 
+            tile.setType("");
             if (flags[6]) {
                 tile.setType("Weapon");
             }

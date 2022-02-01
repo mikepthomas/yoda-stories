@@ -29,10 +29,6 @@ import org.mapeditor.core.TileSet;
 import org.mapeditor.io.TMXMapWriter;
 import org.mapeditor.util.ImageHelper;
 
-/**
- *
- * @author Mike
- */
 public class DataParser {
 
     public static final TileSet TILE_SET = new TileSet();
@@ -65,10 +61,9 @@ public class DataParser {
         writer.writeTileset(TILE_SET, TILE_SET.getSource());
 
         for (Zone zone : zones) {
-            File file = new File("src/site/apt/maps/" + zone.getId(), "index.apt");
-            FileUtils.writeStringToFile(file, "[combined.png] Map Image", "UTF-8");
-        }
-        for (Zone zone : zones) {
+            File file = new File("src/site/markdown/maps/" + zone.getId(), "index.md");
+            FileUtils.writeStringToFile(file, "## Map " + zone.getId() +
+                    "\n\n![Map Image](combined.png)\n", "UTF-8");
             String mapDirectory = directory + "/maps";
             zone.saveImage(mapDirectory);
             String filename = mapDirectory + "/" + zone.getId() + "/tiled.tmx";

@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package info.mikethomas.yodastories.puzzle;
 
 import info.mikethomas.yodastories.parser.BinaryReader;
@@ -11,10 +6,6 @@ import info.mikethomas.yodastories.parser.DataParser;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- *
- * @author Mike
- */
 public class PuzzleReader extends BinaryReader {
 
     public PuzzleReader(InputStream in) {

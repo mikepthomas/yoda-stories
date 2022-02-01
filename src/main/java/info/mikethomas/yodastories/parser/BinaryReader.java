@@ -1,18 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package info.mikethomas.yodastories.parser;
 
 import java.io.FilterInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- *
- * @author Mike
- */
 public class BinaryReader extends FilterInputStream {
 
     public BinaryReader(InputStream in) {

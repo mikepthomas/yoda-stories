@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package info.mikethomas.yodastories.sound;
 
 import java.io.IOException;
@@ -17,20 +12,12 @@ import javax.sound.sampled.Clip;
 import javax.sound.sampled.DataLine.Info;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
+import lombok.AllArgsConstructor;
 
-/**
- *
- * @author Mike
- */
+@AllArgsConstructor
 public class Sound {
 
     private final String filename;
-    
-    public Sound(String filename) {
-        super();
-
-        this.filename = filename;
-    }
 
     public void playSound() throws IOException {
         AudioInputStream stream = null;
